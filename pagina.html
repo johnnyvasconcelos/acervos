@@ -8,7 +8,12 @@
       name="description"
       content="Deixe seu acervo seguro para sempre: transformamos memórias analógicas em arquivos digitais organizados e acessíveis."
     />
+    <meta
+      name="keywords"
+      content="digitalizar acervos corporativos em são paulo, digitalizar acervos grandes empresas, acervos de vídeo, passar vídeos para arquivo digital"
+    />
     <link rel="stylesheet" href="./assets/style/main.css" />
+    <script src="./assets/scripts/video.js" defer></script>
     <script src="./assets/scripts/js.js" defer></script>
   </head>
   <body>
@@ -147,14 +152,29 @@
           <div class="container">
             <div class="text">
               <h1>
-                Digitalização de <span>Grandes Acervos</span> Corporativos em
-                <span>São Paulo</span>
+                Digitalize seu acervo com <span>segurança</span> e
+                <span>qualidade</span> com o Grupo Time Stop!
               </h1>
               <p>
-                Deixe seu acervo seguro para sempre: transformamos memórias
-                analógicas em arquivos digitais organizados e acessíveis.
-                Escolas, empresas e instituições de todo o Brasil já confiam no
-                Grupo Time Stop para preservar e organizar seus acervos.
+                Desde 1994, nossa missão é transformar
+                <strong>mídias analógicas em arquivos digitais</strong>
+                com total segurança, sigilo e fidelidade à qualidade original.
+                Já atendemos mais de <b>44 mil clientes</b> em todo o Brasil,
+                incluindo grandes instituições como Rede Globo, AMBEV, Instituto
+                Butantan, MAM, Centro Cultural de São Paulo, Mococa, Ford do
+                Brasil e Kalunga. Nossos serviços abrangem digitalização de
+                <strong>VHS</strong>, <strong>VHS-C</strong>,
+                <strong>Mini-DV</strong>, <strong>8 mm</strong>,
+                <strong>Super 8</strong>, <strong>16 mm</strong>,
+                <strong>K7</strong>, <strong>vinil</strong>,
+                <strong>rolo de áudio</strong>, <strong>fotos</strong>,
+                <strong>slides</strong>, <strong>CDs/DVDs</strong>, além de
+                <strong>restauração de mídias danificadas</strong>,
+                <strong>telecinagem de rolos de filme</strong> e
+                <strong>conversão de fitas para arquivos digitais (MP4)</strong
+                >, transferíveis para pen drive, HD ou nuvem. Tudo com total
+                sigilo, segurança e a estrutura necessária para preservar suas
+                memórias com cuidado e respeito!
               </p>
 
               <a href="#contato" class="btn btn-header auto"
@@ -164,23 +184,29 @@
               </a>
             </div>
 
-            <figure class="imagem">
+            <figure class="imagem video-thumb">
               <img
                 src="./imagens/acervos.webp"
                 alt="Acervo analógico ao lado do resultado digital"
               />
-              <figcaption
-                style="
-                  display: none;
-                  color: var(--light);
-                  margin-top: 12px;
-                  font-size: 14px;
-                "
-              >
-                Uma foto de acervo analógico (caixas, fitas, fotos antigas) ao
-                lado do “resultado digital” (computador/HD com tudo organizado).
-              </figcaption>
+              <div class="play-button">
+                <img src="./imagens/play.png" alt="Play Video" />
+                <span class="pulse"></span>
+              </div>
             </figure>
+            <!-- Modal do vídeo -->
+            <div id="video-modal" class="video-modal">
+              <div class="video-modal-content">
+                <span class="close-modal">&times;</span>
+                <iframe
+                  id="youtube-iframe"
+                  src=""
+                  frameborder="0"
+                  allow="autoplay; encrypted-media"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
           </div>
         </header>
 
@@ -234,6 +260,7 @@
           </div>
         </section>
 
+        <!-- Digitalização para escolas -->
         <section class="header right section mais-informacoes">
           <div class="container">
             <figure class="imagem">
@@ -251,39 +278,27 @@
               </figcaption>
             </figure>
             <div class="texto">
-              <span class="subtitulo">Soluções para Escolas</span>
-              <h2>Preservando a <span>história</span> da sua instituição</h2>
+              <span class="subtitulo">Acervos Escolares</span>
+              <h2>Proteja a <span>Memória</span> da Sua Escola</h2>
               <p>
-                Organizamos e digitalizamos o acervo escolar, garantindo que
-                alunos, professores e ex-alunos tenham acesso às memórias
-                históricas.
+                Preserve a história da sua instituição antes que se apague.
+                Digitalizamos e organizamos acervos escolares com excelência.
+                Solicite uma avaliação gratuita do seu acervo escolar.
               </p>
 
-              <ul
-                class="list-content"
-                style="margin-top: 18px; color: var(--light)"
-              >
-                <li>
-                  • Digitalização de eventos, formaturas e projetos antigos.
-                </li>
-                <li>• Organização de acervos fotográficos e audiovisuais.</li>
-                <li>
-                  • Entrega em formatos modernos e acessíveis (pendrive, link).
-                </li>
-              </ul>
               <a
                 href="https://api.whatsapp.com/send?phone=5511947332547"
-                class="btn btn-header"
+                class="btn btn-header btn-large"
                 target="_blank"
               >
-                digitalizar&nbsp;&nbsp;
+                solicitar avaliação&nbsp;&nbsp;
                 <span></span>
               </a>
             </div>
           </div>
         </section>
 
-        <!-- Soluções para empresas -->
+        <!-- Digitalização para empresas -->
         <section
           class="header section memoria-corp left mais-informacoes"
           style="margin-top: 150px"
@@ -292,32 +307,20 @@
             <div class="texto">
               <h3>soluções para empresas</h3>
               <h2>
-                A memória corporativa <span>preservada</span> com segurança
+                Digitalização para <span>Empresas</span> e Órgãos Governamentais
               </h2>
               <p>
-                Escolas, empresas e instituições de todo o Brasil já confiam no
-                Grupo Time Stop para preservar e organizar seus acervos.
+                Transforme seus arquivos físicos em digitais com segurança e
+                qualidade. Atendemos grandes volumes com eficiência. Solicite
+                uma proposta personalizada para digitalização corporativa.
               </p>
 
-              <ul
-                class="list-content"
-                style="margin-top: 18px; color: var(--light)"
-              >
-                <li>• Preservação de campanhas, treinamentos e eventos.</li>
-                <li>
-                  • Digitalização de arquivos institucionais e históricos.
-                </li>
-                <li>
-                  • Estrutura preparada para grandes volumes com segurança e
-                  confidencialidade.
-                </li>
-              </ul>
               <a
                 href="https://api.whatsapp.com/send?phone=5511947332547"
-                class="btn btn-header"
+                class="btn btn-header btn-large"
                 target="_blank"
               >
-                digitalizar&nbsp;&nbsp;
+                Solicitar Orçamento&nbsp;&nbsp;
                 <span></span>
               </a>
             </div>
@@ -338,8 +341,53 @@
           </div>
         </section>
 
+        <!-- Digitalização para casas -->
+        <section
+          class="header right last section mais-informacoes section-casa"
+        >
+          <div class="container">
+            <figure class="imagem">
+              <img
+                src="./imagens/carro.webp"
+                alt="Fita de Vídeo VHS antiga, decoração. Memórias antigas em fitas de vídeo."
+                title="Digitalizar VHS"
+              />
+              <figcaption>
+                Utilizamos equipamentos profissionais e técnicas especializadas
+                para garantir a qualidade do material convertido, oferecendo
+                suporte completo para quem deseja converter VHS para Digital em
+                Duque de Caxias, Cuiabá, com foco na fidelidade e durabilidade
+                do conteúdo original.
+              </figcaption>
+            </figure>
+            <div class="texto">
+              <span class="subtitulo">Acervos Escolares</span>
+              <h2>Organização Digital em <span>Casa</span></h2>
+              <p>
+                Organize e digitalize toda a história da sua família,
+                transformando fotos, vídeos, áudios e documentos antigos em
+                arquivos digitais duradouros. Agende uma visita para digitalizar
+                seu acervo em casa.
+              </p>
+
+              <a
+                href="https://api.whatsapp.com/send?phone=5511947332547"
+                class="btn btn-header btn-large"
+                target="_blank"
+              >
+                Agendar Visita&nbsp;&nbsp;
+                <span></span>
+              </a>
+            </div>
+          </div>
+        </section>
+
         <!-- Serviços -->
-        <section id="servicos" class="outros-servicos content">
+        <section
+          id="servicos"
+          class="outros-servicos content"
+          style="margin-top: 120px"
+        >
           <div class="container column">
             <div class="title">
               <span class="subtitulo">O que fazemos</span>
@@ -542,24 +590,6 @@
                 allowfullscreen
               ></iframe>
             </div>
-            <script>
-              document
-                .getElementById("video-cover")
-                .addEventListener("click", function () {
-                  const iframe = document.getElementById("video-iframe");
-                  iframe.style.display = "block";
-                  this.style.display = "none";
-                  const src = iframe.src;
-                  if (!src.includes("autoplay=1")) {
-                    iframe.src =
-                      src + (src.includes("?") ? "&" : "?") + "autoplay=1";
-                  }
-                  iframe.contentWindow.postMessage(
-                    '{"event":"command","func":"playVideo","args":""}',
-                    "*"
-                  );
-                });
-            </script>
           </div>
         </div>
       </section>
@@ -691,6 +721,38 @@
           </div>
         </div>
       </section>
+      <!-- Formulário de Contato -->
+      <section id="formulario" class="formulario space content">
+        <div class="container column">
+          <div class="title">
+            <h3>Contato</h3>
+            <h2>Fale <span>conosco</span></h2>
+          </div>
+
+          <form class="form-area">
+            <div class="form-group">
+              <input type="text" name="nome" placeholder="Seu Nome" required />
+            </div>
+            <div class="form-group">
+              <input
+                type="email"
+                name="email"
+                placeholder="Seu E-mail"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <textarea
+                name="mensagem"
+                placeholder="Sua Mensagem"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn">Enviar</button>
+          </form>
+        </div>
+      </section>
+
       <!-- palavras-chave -->
       <div class="palavras content space">
         <div class="container black">
