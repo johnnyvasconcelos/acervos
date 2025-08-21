@@ -464,57 +464,45 @@
         </section>
       </main>
       <!-- Por que escolher -->
-      <section class="space" id="por-que">
+      <section class="cards serv serv-cards space" id="por-que">
         <div class="container">
-          <div class="title" style="width: 45%; padding-right: 20px">
-            <span class="subtitulo" style="text-align: left"
-              >Por que escolher o Grupo Time Stop?</span
-            >
-            <h2 style="text-align: left">
+          <div class="title" style="width: 25%">
+            <span class="subtitulo">Por que escolher o Grupo Time Stop?</span>
+            <h2>
               Muito além de digitalizar: organizamos <span>sua história</span>!
             </h2>
-            <div
-              class="texto"
-              style="font-size: 20px; text-align: left; margin-top: 20px"
-            >
-              <p>
-                Somos Digital Organizers — o "Personal Organizer" para o seu
-                mundo digital: catalogamos, etiquetamos e entregamos o acervo
-                pronto para uso e consulta.
-              </p>
-            </div>
-            <div class="cards serv serv-cards">
-              <div
-                class="serv-cards-section"
-                style="
-                  display: flex;
-                  justify-content: space-between;
-                  width: 100%;
-                  margin: 50px auto 0 auto;
-                "
-              >
-                <article class="card-item" style="width: 32%">
-                  <img src="./imagens/time.png" alt="time icon png" />
-                  <h4>25+ anos de experiência</h4>
-                  <p>Equipe especializada e treinada.</p>
-                </article>
-                <article class="card-item" style="width: 32%">
-                  <img src="./imagens/collection.png" alt="build icon png" />
-                  <h4>Estrutura para grandes acervos</h4>
-                  <p>Atendimento em todo o Brasil.</p>
-                </article>
-                <article class="card-item" style="width: 32%">
-                  <img src="./imagens/security.png" alt="security icon png" />
-                  <h4>Segurança e confiança</h4>
-                  <p>Processos éticos e documentação controlada.</p>
-                </article>
-              </div>
-            </div>
           </div>
+
+          <div
+            class="serv-cards-section"
+            style="display: flex; width: 20%; gap: 18px; flex-wrap: wrap"
+          >
+            <article class="card-item" style="width: 30%; min-width: 220px">
+              <img src="./imagens/time.png" alt="time icon png" />
+              <h4>25+ anos de experiência</h4>
+              <p>Equipe especializada e treinada.</p>
+            </article>
+            <article class="card-item" style="width: 30%; min-width: 220px">
+              <img src="./imagens/collection.png" alt="build icon png" />
+              <h4>Estrutura para grandes acervos</h4>
+              <p>Atendimento em todo o Brasil.</p>
+            </article>
+            <article class="card-item" style="width: 30%; min-width: 220px">
+              <img src="./imagens/security.png" alt="security icon png" />
+              <h4>Segurança e confidencialidade</h4>
+              <p>Processos éticos e documentação controlada.</p>
+            </article>
+          </div>
+
           <div
             class="video-content"
-            style="display: flex; flex-direction: column; gap: 20px; width: 55%"
+            style="display: flex; flex-direction: column; gap: 20px; width: 40%"
           >
+            <p style="margin-top: 18px; color: var(--light)">
+              Somos Digital Organizers — o "Personal Organizer" para o seu mundo
+              digital: catalogamos, etiquetamos e entregamos o acervo pronto
+              para uso e consulta.
+            </p>
             <div
               id="video-container"
               style="position: relative; width: 100%; max-width: 640px"
@@ -527,6 +515,8 @@
                   style="width: 100%; display: block; border-radius: 8px"
                 />
               </div>
+
+              <!-- Iframe já carregado (sem autoplay) -->
               <iframe
                 id="video-iframe"
                 style="
@@ -542,18 +532,25 @@
                 allowfullscreen
               ></iframe>
             </div>
+
             <script>
               document
                 .getElementById("video-cover")
                 .addEventListener("click", function () {
                   const iframe = document.getElementById("video-iframe");
+
+                  // Mostra o vídeo
                   iframe.style.display = "block";
                   this.style.display = "none";
+
+                  // Força autoplay adicionando parâmetro
                   const src = iframe.src;
                   if (!src.includes("autoplay=1")) {
                     iframe.src =
                       src + (src.includes("?") ? "&" : "?") + "autoplay=1";
                   }
+
+                  // Manda comando de play via API
                   iframe.contentWindow.postMessage(
                     '{"event":"command","func":"playVideo","args":""}',
                     "*"

@@ -82,6 +82,22 @@ figcaption {
 .column {
   flex-direction: column;
 }
+.card-item {
+  border-radius: 10px;
+  padding: 25px 15px !important;
+  background-color: #232121c6 !important;
+  box-shadow: rgba(87, 76, 76, 0.41) 0px 0px 50px 0px !important;
+  border: none !important;
+}
+.card-item img {
+  width: 42px;
+  height: 42px;
+  display: block;
+  margin: 0 auto;
+}
+.card-item h4 {
+  font-size: 18px !important;
+}
 .black {
   background-color: var(--color-5);
   padding: 60px 80px;
@@ -419,6 +435,9 @@ h3 {
 }
 .header .texto {
   width: 60% !important;
+}
+.list-content li {
+  font-size: 18px;
 }
 .flip-card {
   height: 300px;
@@ -931,6 +950,25 @@ footer {
     font-size: 50px;
   }
 }
+@media (max-width: 1100px) {
+  #por-que .container {
+    flex-direction: column;
+  }
+  #por-que .container .serv-cards-section {
+    width: 100% !important;
+    flex-direction: row !important;
+    flex-wrap: wrap;
+  }
+  #por-que .container .title {
+    width: 100% !important;
+  }
+  #por-que .container .video-content {
+    width: 100% !important;
+  }
+  #por-que .container #video-container {
+    max-width: 100% !important;
+  }
+}
 @media (max-width: 990px) {
   .menu-mobile {
     position: fixed;
@@ -1091,8 +1129,8 @@ footer {
   .mais-informacoes .container {
     flex-direction: column;
   }
-  .mais-informacoes.first {
-    margin-top: 50px;
+  .mais-informacoes {
+    margin-top: -50px;
   }
   .btn.btn-header {
     margin-bottom: 25px;
@@ -1110,7 +1148,7 @@ footer {
     padding: 25px !important;
   }
   .outros-servicos-cards article {
-    width: 45% !important;
+    width: 100% !important;
   }
   .depoimentos-area {
     flex-wrap: wrap !important;
@@ -1132,6 +1170,9 @@ footer {
     width: 13.5px !important;
     height: 12px !important;
   }
+  .memoria-corp {
+    margin-top: 40px !important;
+  }
   .facebook-ic {
     width: 6px !important;
     height: 12px !important;
@@ -1150,6 +1191,13 @@ footer {
   }
   .cards-all .card img {
     width: 60px;
+  }
+  .flip-card .flipcard h3,
+  .flip-card-back h4 {
+    font-size: 18px !important;
+  }
+  .serv-cards-section .card-item {
+    width: 32% !important;
   }
 }
 @media (max-width: 930px) {
@@ -1247,6 +1295,14 @@ footer {
   }
   .bairros .container {
     padding: 35px;
+  }
+}
+@media (max-width: 567px) {
+  .serv-cards-section {
+    gap: 20px;
+  }
+  .serv-cards-section .card-item {
+    width: 100% !important;
   }
 }
 @media (max-width: 500px) {
