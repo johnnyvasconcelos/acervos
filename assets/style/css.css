@@ -73,18 +73,18 @@ h2 span {
 }
 
 .play-button img {
-  width: 75px; /* ícone play menor */
+  width: 75px;
   height: 75px;
   z-index: 20;
 }
 
 .play-button .pulse {
   position: absolute;
-  width: 95px; /* menor círculo */
+  width: 95px;
   height: 95px;
-  border: 20px solid rgba(255, 255, 255, 0.7); /* borda mais grossa */
+  border: 20px solid rgba(255, 255, 255, 0.7);
   border-radius: 50%;
-  animation: pulse-ring 2.5s infinite; /* mais lento */
+  animation: pulse-ring 2.5s infinite;
   z-index: 5;
 }
 
@@ -94,26 +94,24 @@ h2 span {
     opacity: 1;
   }
   100% {
-    transform: scale(1.3); /* menos expansão */
+    transform: scale(1.3);
     opacity: 0;
   }
 }
 
-/* Modal fundo */
 .video-modal {
-  display: none; /* escondido inicialmente */
+  display: none;
   position: fixed;
   z-index: 3000;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.8); /* fundo escuro */
+  background-color: rgba(0, 0, 0, 0.8);
   align-items: center;
   justify-content: center;
 }
 
-/* Conteúdo central do modal */
 .video-modal-content {
   position: relative;
   width: 90%;
@@ -128,7 +126,6 @@ h2 span {
   border-radius: 10px;
 }
 
-/* Botão X */
 .close-modal {
   position: absolute;
   top: -40px;
@@ -141,7 +138,7 @@ h2 span {
 }
 
 .close-modal:hover {
-  color: var(--color-3); /* dourado */
+  color: var(--color-3);
 }
 
 h4 {
@@ -1006,44 +1003,6 @@ footer {
   color: var(--light);
   position: relative;
   z-index: 120;
-}
-/* Formulário */
-.formulario .form-area {
-  width: 100%;
-  max-width: 700px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.formulario .form-group input,
-.formulario .form-group textarea {
-  width: 100%;
-  padding: 15px;
-  border: 1px solid var(--color-2);
-  border-radius: 10px;
-  background-color: var(--color-5);
-  color: var(--white);
-  font-size: 18px;
-  font-family: var(--font-300);
-  outline: none;
-  transition: 0.2s;
-}
-
-.formulario .form-group input:focus,
-.formulario .form-group textarea:focus {
-  border-color: var(--color-3);
-  box-shadow: 0px 0px 15px rgba(224, 187, 101, 0.4);
-}
-
-.formulario .form-group textarea {
-  resize: none;
-  min-height: 150px;
-}
-
-.formulario button.btn {
-  align-self: center;
 }
 
 /*configuracoes responsividade*/

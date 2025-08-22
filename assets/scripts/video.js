@@ -24,16 +24,3 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
-document.getElementById("video-cover").addEventListener("click", function () {
-  const iframe = document.getElementById("video-iframe");
-  iframe.style.display = "block";
-  this.style.display = "none";
-  const src = iframe.src;
-  if (!src.includes("autoplay=1")) {
-    iframe.src = src + (src.includes("?") ? "&" : "?") + "autoplay=1";
-  }
-  iframe.contentWindow.postMessage(
-    '{"event":"command","func":"playVideo","args":""}',
-    "*"
-  );
-});
