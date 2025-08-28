@@ -338,6 +338,13 @@ h3 {
   overflow: hidden;
   background-image: url("../../imagens/vhsbackground.webp");
 }
+.texto-alt {
+  max-width: 450px;
+  margin: 0 auto 50px auto;
+  font-size: 18px;
+  text-align: center;
+  line-height: 1.5;
+}
 .img-background-2 {
   background-image: url("../../imagens/header-alt.webp");
 }
@@ -345,18 +352,7 @@ h3 {
   background-image: url("../../imagens/fita-foto.webp");
 }
 .img-background-4 {
-  position: relative;
-  overflow: hidden; /* garante que não vaze */
-}
-.img-background-4::before {
-  content: "";
-  position: absolute;
-  inset: 0;
   background-image: url("../../imagens/camera-background.webp");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  transform: scaleX(-1);
 }
 .recuperar-fita {
   background-image: url("../../imagens/restaurarvideo.webp");
@@ -1426,6 +1422,14 @@ footer {
   }
   .cards-all .card h4 {
     font-size: 22px;
+  }
+  .texto-alt {
+    margin: -10px auto 50px auto;
+  }
+  .texto-alt,
+  .subtitle-alt,
+  .title-alt {
+    text-align: left;
   }
 }
 @media (max-width: 569px) {

@@ -8,19 +8,18 @@ document.addEventListener("DOMContentLoaded", function () {
     "https://www.youtube.com/embed/I1JgulbyWa0?si=6d6LYH5DyCxNKpPI";
 
   playBtn.addEventListener("click", () => {
-    iframe.src = videoUrl;
     modal.style.display = "flex";
   });
 
   closeModal.addEventListener("click", () => {
     modal.style.display = "none";
-    iframe.src = "";
+    iframe.src = iframe.src;
   });
 
   modal.addEventListener("click", (e) => {
     if (e.target === modal) {
       modal.style.display = "none";
-      iframe.src = "";
+      iframe.src = iframe.src;
     }
   });
 });
