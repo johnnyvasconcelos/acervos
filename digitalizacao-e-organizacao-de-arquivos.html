@@ -14,7 +14,6 @@
     />
     <link rel="stylesheet" href="./assets/style/css.css" />
     <link rel="icon" type="image/png" href="./imagens/favicon.webp" />
-    <script src="./assets/scripts/video.js" defer></script>
     <script src="./assets/scripts/js.js" defer></script>
   </head>
   <body>
@@ -34,8 +33,10 @@
             <li class="relative">
               <a href="#servicos" class="caret-menu">
                 serviços
-                <span class="img-background"></span>
-              </a>
+                <span style="font-size: 10px; display: inline-block"
+                  >&#9662;
+                </span></a
+              >
               <ul class="subitem">
                 <li>
                   <a
@@ -166,9 +167,7 @@
               </p>
 
               <a href="#contato" class="btn btn-header auto"
-                >Solicite avaliação&nbsp;&nbsp;<span
-                  class="img-background"
-                ></span>
+                >Solicite avaliação&nbsp;&nbsp;&#10132;
               </a>
             </div>
 
@@ -177,22 +176,16 @@
                 src="./imagens/casas.webp"
                 alt="Equipe Grupo Time Stop. Empresa de digitalização de arquivos anaóligocos residenciais."
               />
-              <div class="play-button">
+              <a
+                class="play-button"
+                title="Assista ao Vídeo."
+                href="https://www.youtube.com/watch?v=I1JgulbyWa0"
+                target="_blank"
+              >
                 <img src="./imagens/play.webp" alt="Play Video" />
                 <span class="pulse"></span>
-              </div>
+              </a>
             </figure>
-            <div id="video-modal" class="video-modal">
-              <div class="video-modal-content">
-                <span class="close-modal">&times;</span>
-                <iframe
-                  id="youtube-iframe"
-                  src="https://www.youtube.com/embed/I1JgulbyWa0?si=ilPWgm1sg4pRkxob"
-                  allow="autoplay; encrypted-media"
-                  allowfullscreen
-                ></iframe>
-              </div>
-            </div>
           </div>
         </header>
 
@@ -304,8 +297,7 @@
                 class="btn btn-header btn-large"
                 target="_blank"
               >
-                solicitar avaliação&nbsp;&nbsp;
-                <span></span>
+                solicitar avaliação&nbsp;&nbsp; &#10132;
               </a>
             </div>
           </div>
@@ -332,8 +324,7 @@
                 class="btn btn-header btn-large"
                 target="_blank"
               >
-                Solicitar Orçamento&nbsp;&nbsp;
-                <span></span>
+                Solicitar Orçamento&nbsp;&nbsp; &#10132;
               </a>
             </div>
             <figure class="imagem">
@@ -360,7 +351,7 @@
           <div class="container">
             <figure class="imagem">
               <img
-                src="./imagens/fotos-antigas-2-349.webp"
+                src="./imagens/fotos-antigas-2349.jpg"
                 alt="Equipe de digitalização de fotos antigas."
                 title="Digitalizar VHS"
               />
@@ -388,8 +379,7 @@
                 class="btn btn-header btn-large"
                 target="_blank"
               >
-                Agendar Visita&nbsp;&nbsp;
-                <span></span>
+                Agendar Visita&nbsp;&nbsp; &#10132;
               </a>
             </div>
           </div>
@@ -749,7 +739,11 @@
         target="_blank"
         class="btn-whatsapp btn"
       >
-        <span class="whats img-background"></span>
+        <img
+          src="./imagens/icones/white-whatsapp.svg"
+          style="width: 25px"
+          alt="whatsapp icon"
+        />
         &nbsp;&nbsp;&nbsp;chame agora
       </a>
       <footer>
