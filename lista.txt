@@ -30,7 +30,7 @@ Vila Clementino |
 Vila Madalena |
 Vila Mariana |
 Vila Nova Conceição |
-Vila Olímpia |
+Vila Olímpia ||
 Vila Prudente |
 Tamboré (Barueri) |
 Vila Yara (Osasco) |
@@ -39,13 +39,13 @@ Campestre (Santo André) |
 Morumbi |
 Saúde |
 Jardins (região) ||
-Chácara Santo Antônio |
+Chácara Santo Antônio ||
 Jardim (Santo André) |
 Alphaville (Barueri) |||
 Alphaville (Santana de Parnaíba) |
 Granja Viana (Cotia) |
 Vila Campesina (Osasco) |
-Bela Vista  (Osasco) |
+Bela Vista (Osasco) |
 Jardim do Mar (São Bernando do Campo) |
 Rudge Ramos (São Bernardo do Campo) |
 Nova Petrópolis (São Bernardo do Campo) |
