@@ -38,10 +38,10 @@ Jardim Bela Vista (Santo André) |
 Campestre (Santo André) |
 Morumbi |
 Saúde |
-Jardins (região) |
+Jardins (região) ||
 Chácara Santo Antônio |
 Jardim (Santo André) |
-Alphaville (Barueri) ||
+Alphaville (Barueri) |||
 Alphaville (Santana de Parnaíba) |
 Granja Viana (Cotia) |
 Vila Campesina (Osasco) |
