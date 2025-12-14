@@ -17,7 +17,7 @@ Jardim Paulista |
 Jardim Paulistano |
 Lapa |
 Moema |
-Mooca |
+Mooca ||
 Higienópolis |
 Pacaembu |
 Paraíso |
@@ -31,7 +31,7 @@ Vila Madalena |
 Vila Mariana |
 Vila Nova Conceição |
 Vila Olímpia ||
-Vila Prudente |
+Vila Prudente ||
 Tamboré (Barueri) |
 Vila Yara (Osasco) |
 Jardim Bela Vista (Santo André) |
