@@ -9,10 +9,10 @@ Chácara Flora |
 Cidade Jardim |
 Consolação |
 Ipiranga |
-Itaim Bibi |
+Itaim Bibi ||
 Jardim Europa |
 Jardim América |
-Jardim Anália Franco |
+Jardim Anália Franco ||
 Jardim Paulista |
 Jardim Paulistano |
 Lapa |
@@ -24,7 +24,7 @@ Paraíso |
 Perdizes |
 Pinheiros |
 Santana ||
-Santo Amaro |
+Santo Amaro ||
 Tatuapé ||
 Vila Clementino |
 Vila Madalena |
@@ -37,15 +37,15 @@ Vila Yara (Osasco) |
 Jardim Bela Vista (Santo André) |
 Campestre (Santo André) |
 Morumbi |
-Saúde |
+Saúde ||
 Jardins (região) ||
 Chácara Santo Antônio ||
 Jardim (Santo André) |
-Alphaville (Barueri) |||
+___ Alphaville (Barueri) |||
 Alphaville (Santana de Parnaíba) |
 Granja Viana (Cotia) |
 Vila Campesina (Osasco) |
-Bela Vista (Osasco) |
+Bela Vista (Osasco) ||
 Jardim do Mar (São Bernando do Campo) |
 Rudge Ramos (São Bernardo do Campo) |
 Nova Petrópolis (São Bernardo do Campo) |
