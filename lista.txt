@@ -7,7 +7,7 @@ Campo Belo |
 Cerqueira César |
 Chácara Flora |
 Cidade Jardim |
-Consolação |
+Consolação ||
 Ipiranga |
 Itaim Bibi ||
 Jardim Europa |
@@ -16,7 +16,7 @@ Jardim Anália Franco ||
 Jardim Paulista |
 Jardim Paulistano |
 Lapa |
-Moema |
+Moema ||
 Mooca ||
 Higienópolis |
 Pacaembu |
