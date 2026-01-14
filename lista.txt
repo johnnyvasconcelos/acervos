@@ -4,14 +4,18 @@ Moema
 Itaim Bibi
 Vila Mariana
 Consolação
+Butantã
 Bairro Saúde
 Alphaville Barueri
 Ipiranga
+Aclimação
+Lapa
+Morumbi
+Alto de Pinheiros
 
 
-
-Aclimação |
-Alto de Pinheiros |
+Aclimação ||
+Alto de Pinheiros ||
 Barra Funda |
 Brooklin |
 Butantã ||
@@ -27,7 +31,7 @@ Jardim América |
 Jardim Anália Franco ||
 Jardim Paulista |
 Jardim Paulistano |
-Lapa |
+Lapa ||
 Moema ||
 Mooca ||
 Higienópolis |
@@ -48,7 +52,7 @@ Tamboré (Barueri) |
 Vila Yara (Osasco) |
 Jardim Bela Vista (Santo André) |
 Campestre (Santo André) |
-Morumbi |
+Morumbi ||
 Saúde ||
 Jardins (região) ||
 Chácara Santo Antônio ||
