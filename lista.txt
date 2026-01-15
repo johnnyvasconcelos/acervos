@@ -12,6 +12,9 @@ Aclimação
 Lapa
 Morumbi
 Alto de Pinheiros
+Campo Belo
+Jardim América
+Chácara Flora
 
 
 Aclimação ||
@@ -19,15 +22,15 @@ Alto de Pinheiros ||
 Barra Funda |
 Brooklin |
 Butantã ||
-Campo Belo |
+Campo Belo ||
 Cerqueira César |
-Chácara Flora |
+Chácara Flora ||
 Cidade Jardim |
 Consolação ||
 Ipiranga ||
 Itaim Bibi ||
 Jardim Europa |
-Jardim América |
+Jardim América ||
 Jardim Anália Franco ||
 Jardim Paulista |
 Jardim Paulistano |
