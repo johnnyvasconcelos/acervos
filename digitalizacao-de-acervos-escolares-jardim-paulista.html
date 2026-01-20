@@ -1,22 +1,22 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>
+      Digitalização de Acervos Escolares no Jardim Paulista, São Paulo
+    </title>
     <meta
       name="description"
-      content="Digitalização de Acervos Analógicos em Alphaville, Santana de Parnaíba! Transforme memórias valiosas em fitas VHS, fotos antigas, discos de vinil em digital para acessar quando e onde quiser!"
+      content="Digitalização de acervos escolares no Jardim Paulista, São Paulo. Converta Fitas VHS Escolares, Fotos, e outros formatos para Pen Drive."
     />
     <meta
       name="keywords"
-      content="digitalizar vhs, alphaville, santana de parnaíba, digitalizar fita de vídeo, fita cassete, vinil, foto antiga, álbum de foto, foto casamento, aniversário, foto em papel para pen drive, dvd, hd externo, nuvem"
+      content="digitalização de acervos escolares Jardim Paulista, backup, arquivos, documentos, fotos, jpg, pdf, dvd, pen drive, conversão analógica"
     />
     <link rel="stylesheet" href="./assets/style/css.css" />
     <link rel="icon" type="image/png" href="./imagens/favicon.webp" />
     <script src="./assets/scripts/js.js" defer></script>
-    <title>
-      Digitalização de Acervos Analógicos, Alphaville Santana de Parnaíba
-    </title>
   </head>
   <body>
     <div class="wrapper">
@@ -25,20 +25,18 @@
           <a href="/" class="logo">
             <img
               src="./imagens/logo.webp"
-              alt="Logo Empresa Grupo TimeStop. Conversão e Digitalização de Acervos Analógicos em Santana de Parnaíba."
+              alt="Time Stop Logo. Empresa especializada em digitalização de acervos escolares Jardim Paulista, são paulo. Fitas VHS, cassete, fotos, e muito mais para digital."
             />
           </a>
           <ul class="menu">
             <li><a href="https://timestop.com.br/">home</a></li>
-            <li><a href="https://timestop.com.br/quem-somos/">sobre</a></li>
+            <li><a href="#sobre">sobre</a></li>
             <li><a href="https://timestop.com.br/acervos">Acervos</a></li>
             <li class="relative">
               <a href="#servicos" class="caret-menu">
                 serviços
-                <span style="font-size: 10px; display: inline-block"
-                  >&#9662;
-                </span></a
-              >
+                <span class="img-background"></span>
+              </a>
               <ul class="subitem">
                 <li>
                   <a
@@ -86,13 +84,7 @@
             <li>
               <a href="https://timestop.com.br/depoimentos/"> depoimentos </a>
             </li>
-            <li>
-              <a
-                href="https://api.whatsapp.com/send/?phone=5511912875293&text&app_absent=0"
-                target="_blank"
-                >contato</a
-              >
-            </li>
+            <li><a href="https://timestop.com.br/contato/">contato</a></li>
           </ul>
           <div class="btn-mobile">
             <span class="bar"></span>
@@ -165,44 +157,42 @@
           <div class="container">
             <div class="text">
               <h1>
-                <span>Digitalização</span> de Acervos Analógicos
-                <span>Alphaville, Santana de Parnaíba</span>
+                Digitalização de Acervos Escolares na
+                <span>Jardim Paulista</span>, São Paulo
               </h1>
               <p>
-                Digitalize suas memórias! Em Santana de Parnaíba, Alphaville e
-                região, convertemos VHS, fitas cassete, fotos antigas, rolos de
-                filme e muito mais para pen drive, permitindo que você acesse
-                suas lembranças importantes quando e onde quiser. Clique abaixo
-                para mais informações e orçamento!
+                Sua instituição no Jardim Paulista pode contar com a nossa
+                experiência para passar fitas VHS, fitas cassete e fotos antigas
+                para o formato digital. Transformamos seus materiais físicos em
+                arquivos modernos, facilitando o acesso ao conteúdo e garantindo
+                que sua escola esteja atualizada com os padrões de tecnologia de
+                hoje.
               </p>
-              <a
-                href="https://api.whatsapp.com/send/?phone=5511912875293&text&app_absent=0"
-                target="_blank"
-                class="btn btn-header auto"
-                target="_blank"
-                >Solicitar avaliação&nbsp;&nbsp;&#10132;
+              <a href="#contato" class="btn btn-header auto"
+                >Solicite avaliação&nbsp;&nbsp;<span
+                  class="img-background"
+                ></span>
               </a>
             </div>
 
             <figure class="imagem video-thumb">
               <img
-                src="./imagens/casas.webp"
-                alt="Grupo TimeStop no YouTube. Recuperação e Preservação de Memórias em Santana de Parnaíba, Alphaville."
+                src="./imagens/acervos.webp"
+                alt="Acervo analógico de uma escola."
               />
-              <a
-                class="play-button"
-                title="Assista ao Vídeo."
-                href="https://www.youtube.com/watch?v=I1JgulbyWa0"
-                target="_blank"
-              >
-                <img src="./imagens/play.webp" alt="Play Video" />
+              <div class="play-button">
+                <img src="./imagens/play.webp" alt="Play Video Icon." />
                 <span class="pulse"></span>
-              </a>
+              </div>
             </figure>
+            <!-- Modal do vídeo -->
+            <div id="video-modal" class="video-modal">
+              <div class="video-modal-content">
+                <span class="close-modal">&times;</span>
+              </div>
+            </div>
           </div>
         </header>
-
-        <!-- Quem somos / Credibilidade -->
         <section class="first-sec">
           <div class="container column">
             <div class="title half">
@@ -214,73 +204,50 @@
                 <span>memórias</span> e histórias
               </h2>
             </div>
-
             <div class="texto-alt">
               <p>
-                Lembra daquela fita de vídeo antiga do aniversário, meio
-                mastigada pelo tempo e esquecida no hack empoeirado? Ou daquele
-                vinil de 1970 que você jurava que um dia iria ouvir de novo, mas
-                que acabou virando peça decorativa em cima do guarda-roupa? E o
-                álbum de fotos com sorrisos de quem já partiu, guardado com
-                carinho, mas longe de qualquer olhar? Pois é… tudo isso pode
-                ganhar vida outra vez. A Digitalização de Acervos Analógicos em
-                Santana de Parnaíba, Alphaville chegou justamente para resgatar
-                essas memórias e colocá-las de volta no seu cotidiano —
-                acessíveis, protegidas e prontas para serem revividas quando e
-                onde você quiser. Fundado por Christian Moraes e desenvolvido ao
-                lado de sua sócia e diretora Camilla Parenti, o Grupo Time Stop
-                mantém a tradição de respeitar histórias, enquanto abraça
-                ferramentas modernas para preservá-las. Trabalham desde aquela
-                fita única e pessoal até coleções corporativas inteiras, sempre
-                com segurança absoluta e confidencialidade total. Ao transformar
-                seus registros em arquivos digitais, você pode armazená-los em
-                múltiplos dispositivos, organizá-los, compartilhá-los com a
-                família e, principalmente, blindá-los contra perdas, desgastes e
-                acidentes que o tempo insiste em trazer. É como segurar o
-                passado pelas mãos e convidá-lo a caminhar com você no presente.
-                A Time Stop não apenas converte mídias: ela interrompe a ação do
-                tempo, protege lembranças e ajuda você a perpetuar o valor
-                daquilo que construiu. Seu legado merece permanecer vivo — e
-                pode, a partir de agora, continuar sendo celebrado em cada tela,
-                em cada momento.
+                Leve sua escola no Jardim Paulista para o futuro! Nós passamos
+                suas fotos e fitas antigas para o computador. Além de ganhar
+                espaço físico na secretaria, você consegue acessar gravações e
+                fotos de anos atrás com apenas alguns cliques. Protegemos seus
+                dados e garantimos que a história da sua instituição nunca se
+                perca.
               </p>
             </div>
-
             <div class="cards-all">
-              <article class="card card-alt">
-                <img
-                  src="./imagens/icones/compromisso.webp"
-                  alt="ícone dourado de compromisso."
-                />
-                <h4>Compromisso</h4>
-                <p>
-                  Nossa missão é garantir proteção, excelência e o cuidado
-                  necessário para manter viva a história de cada cliente.
-                </p>
-              </article>
-
               <article class="card">
                 <img
                   src="./imagens/icones/experiencia.webp"
-                  alt="ícone dourado de experiência."
+                  alt="ícone de experiência."
                 />
                 <h4>Experiência</h4>
                 <p>
-                  O Grupo Time Stop surgiu em 1994 e, desde aquela época,
-                  dedica-se à preservação de memórias por meio da digitalização
-                  de acervos escolares, corporativos e culturais.
+                  O Grupo Time Stop nasceu em 1994 e desde então atua na
+                  digitalização de acervos escolares, empresariais e culturais.
+                </p>
+              </article>
+
+              <article class="card card-alt">
+                <img
+                  src="./imagens/icones/compromisso.webp"
+                  alt="ícone de compromisso."
+                />
+                <h4>Compromisso</h4>
+                <p>
+                  Nosso compromisso é com a segurança, a qualidade e a
+                  preservação da história de cada cliente.
                 </p>
               </article>
 
               <article class="card">
                 <img
                   src="./imagens/icones/confianca.webp"
-                  alt="ícone dourado de confiança."
+                  alt="ícone de confiança."
                 />
                 <h4>Confiança</h4>
                 <p>
-                  Reconhecimento com nota máxima no Google e colaborações com
-                  instituições e empresas de destaque.
+                  Avaliação 5 estrelas no Google e parcerias com instituições e
+                  empresas renomadas.
                 </p>
               </article>
             </div>
@@ -292,28 +259,33 @@
           <div class="container">
             <figure class="imagem">
               <img
-                src="./imagens/casal-album-de-fotos.webp"
-                alt="Casal investigando álbum de fotos antigo. Digitalização de fotos antigas."
-                title="Digitalizar FOTOS"
+                src="./imagens/acervo-escolar.webp"
+                alt="Acervos escolares. Empresa para digitalização de documentos escolares."
+                title="Digitalizar VHS"
               />
               <figcaption>
-                Transformar conteúdos analógicos em formato digital é a melhor
-                maneira de preservar suas memórias. Atendemos as regiões de
-                Alphaville, Santana de Parnaíba.
+                Somos especialistas em digitalizar o material histórico de
+                escolas no Jardim Paulista. Usamos equipamentos modernos para
+                transformar suas fotos e fitas (VHS e cassete) em arquivos
+                digitais perfeitos. Entregamos tudo organizado para facilitar o
+                seu dia a dia e garantir que as memórias da sua escola estejam
+                salvas e seguras.
               </figcaption>
             </figure>
             <div class="texto">
-              <span class="subtitulo">Acervos Residenciais</span>
+              <span class="subtitulo">Acervos Escolares</span>
               <h2>
-                Digitalização de Acervos Analógicos para <span>Famílias</span> e
-                <span>Residências</span>
+                <span style="display: none">Digitalize acervos escolares: </span
+                >Guarde a <span>História</span> da Sua Escola
               </h2>
               <p>
-                A conversão de mídias analógicas — como VHS, MiniDV, Hi8, fitas
-                em rolo e fotografias — é essencial para resguardar seu conteúdo
-                de danos permanentes. Umidade, mofo e o desgaste natural agem
-                continuamente nessas mídias, diminuindo a qualidade e podendo
-                até causar a perda completa das imagens ao longo dos anos.
+                Usamos equipamentos modernos e de alta qualidade para
+                transformar as fotos e fitas antigas das escolas no Jardim
+                Paulista em arquivos digitais. Mais do que apenas copiar,
+                organizamos tudo para que você encontre qualquer imagem ou vídeo
+                rapidamente e tenha cópias de segurança. Protegemos a história
+                da sua escola, garantindo que o material digital seja idêntico
+                ao original e muito mais fácil de guardar.
               </p>
 
               <a
@@ -321,7 +293,8 @@
                 class="btn btn-header btn-large"
                 target="_blank"
               >
-                solicitar avaliação&nbsp;&nbsp; &#10132;
+                solicitar avaliação&nbsp;&nbsp;
+                <span></span>
               </a>
             </div>
           </div>
@@ -336,16 +309,15 @@
             <div class="texto">
               <h3>soluções para empresas</h3>
               <h2>
-                Preserve a <span>História</span> da Sua Família em Alphaville!
+                Transforme <span>Diferentes Formatos</span> em Memória Digital
               </h2>
               <p>
-                A digitalização de fitas, fotografias, discos e rolos de filme
-                transforma memórias antigas em arquivos digitais duradouros.
-                Dessa forma, você pode guardar tudo em pen drives, DVDs ou HDs
-                externos, sem precisar de aparelhos antigos e sem correr o risco
-                de perder qualidade com o passar do tempo. Fale conosco de
-                Alphaville, Santana de Parnaíba, para obter mais informações e
-                um orçamento personalizado!
+                Chega de perder tempo procurando papéis no arquivo. Com nosso
+                serviço de digitalização no Jardim Paulista, passamos todos os
+                documentos e a história da sua escola para o computador de um
+                jeito organizado. Assim, você encontra históricos e registros em
+                poucos segundos e sua equipe ganha mais tempo para focar no que
+                realmente importa: o atendimento aos alunos.
               </p>
 
               <a
@@ -353,20 +325,24 @@
                 class="btn btn-header btn-large"
                 target="_blank"
               >
-                Solicitar Orçamento&nbsp;&nbsp; &#10132;
+                Solicitar Orçamento&nbsp;&nbsp;
+                <span></span>
               </a>
             </div>
             <figure class="imagem">
               <img
-                src="./imagens/disco-vinil.webp"
-                alt="Disco de vinil antigo. Conversão e Digitalização de Discos de Vinil para Pen Drive ou HD."
+                src="./imagens/camilla-parenti.webp"
+                alt="Fitas de Vídeo Acervo Escolar. Conversão de vários tipos e formatos de vhs. Conversão de Analógico para digital Jardim Paulista."
                 title="Diversos Modelos de Fitas para Vídeo."
               />
               <figcaption>
-                Digitalizamos discos de vinil, LPs, fitas cassete e diversos
-                outros formatos, preservando cada detalhe do seu áudio original.
-                Se quiser saber mais sobre como transformar suas mídias antigas
-                em arquivos modernos e acessíveis, entre em contato!
+                Terminamos o trabalho garantindo que tudo seja mantido em
+                segredo e total segurança. Mais do que apenas criar arquivos
+                digitais, cuidamos para que as informações da sua escola fiquem
+                bem protegidas. Você recebe tudo com senhas e travas de
+                segurança, seja pela internet ou em pen drives, para que só quem
+                você autorizar consiga ver. É o jeito mais seguro de modernizar
+                sua escola sem correr riscos.
               </figcaption>
             </figure>
           </div>
@@ -379,28 +355,30 @@
           <div class="container">
             <figure class="imagem">
               <img
-                src="./imagens/fita-analogica-antiga.webp"
-                alt="Fita analógica vhs para digital. Entre em contato para mais informações e orçamento personalizado."
+                src="./imagens/carro.webp"
+                alt="Empresa para atendimento para digitalização de acervos."
                 title="Digitalizar VHS"
               />
               <figcaption>
-                Especializados na preservação de vinis e LPs, transformamos suas
-                preciosidades em arquivos digitais de alta qualidade, garantindo
-                que cada nota, cada faixa e cada detalhe do áudio original sejam
-                mantidos. Nosso trabalho permite que colecionadores e amantes da
-                música revivam clássicos atemporais sem comprometer a
-                integridade das mídias originais.
+                Nós entregamos seus arquivos digitais do jeito que for melhor
+                para você: em pen drive, HD externo ou pela internet. Todas
+                essas formas são seguras e garantem que os documentos da sua
+                escola durem para sempre, sem o risco de sumirem ou estragarem.
+                Assim, o que você precisa está sempre à mão, bem guardado e
+                fácil de achar.
               </figcaption>
             </figure>
             <div class="texto">
-              <span class="subtitulo">Acervos Residenciais</span>
-              <h2>Fale com a nossa <span>equipe</span></h2>
+              <span class="subtitulo">Acervos Escolares</span>
+              <h2>Organização Digital na <span>Escola</span></h2>
               <p>
-                Em Alphaville Santana de Parnaíba, você pode digitalizar fitas,
-                fotografias, discos e rolos de filme, convertendo suas memórias
-                em arquivos digitais prontos para uso. Conte com nossos
-                especialistas para proteger suas lembranças do desgaste natural
-                das mídias e evitar perdas irreversíveis.
+                Não deixe a história da sua escola se perder com o tempo. Nós
+                transformamos fotos, vídeos em fitas antigas e documentos em
+                arquivos digitais que você pode abrir no computador e
+                compartilhar facilmente. O melhor de tudo é que fazemos o
+                serviço aí mesmo, na sua unidade, para que nada precise sair do
+                lugar. Entre em contato, peça uma visita e veja como é simples
+                salvar essas memórias.
               </p>
 
               <a
@@ -408,7 +386,8 @@
                 class="btn btn-header btn-large"
                 target="_blank"
               >
-                Agendar Visita&nbsp;&nbsp; &#10132;
+                Agendar Visita&nbsp;&nbsp;
+                <span></span>
               </a>
             </div>
           </div>
@@ -456,7 +435,7 @@
                   <div class="flip-card-front flipcard">
                     <img
                       src="./imagens/cd.webp"
-                      alt="Digitalização de Áudio!"
+                      alt="Digitalização de Áudios para mp3!"
                     />
                     <h3>Digitalização de Áudio</h3>
                   </div>
@@ -478,7 +457,7 @@
                   <div class="flip-card-front flipcard">
                     <img
                       src="./imagens/rolo-de-filme.webp"
-                      alt="Digitalização de Películas!"
+                      alt="Digitalização de Películas e rolos de filme!"
                     />
                     <h3>Digitalização de Películas</h3>
                   </div>
@@ -500,7 +479,7 @@
                   <div class="flip-card-front flipcard">
                     <img
                       src="./imagens/album-foto.webp"
-                      alt="Digitalização de Fotos."
+                      alt="Digitalização de Fotos pesadas."
                     />
                     <h3>Digitalização de Fotos e Slides</h3>
                   </div>
@@ -578,7 +557,7 @@
               >
                 <article class="card-item" style="width: 32%">
                   <img src="./imagens/time.webp" alt="time icon png" />
-                  <h4>A Maior e Mais Antiga Empresa do Brasil no Segmento</h4>
+                  <h4>A Maior e Mais Antiga Empresa do Brasil no segmento</h4>
                   <p>Equipe especializada e treinada.</p>
                 </article>
                 <article class="card-item" style="width: 32%">
@@ -606,7 +585,7 @@
               <div id="video-cover" style="cursor: pointer; position: relative">
                 <img
                   src="./imagens/equipe-grupotimestop.webp"
-                  alt="Grupo TimeStop. Empresa especializada em digitalização de acervos analógicos em Alphaville, Santana de Parnaíba."
+                  alt="Equipe Grupo Time Stop. Conversão de Acervos Escolares."
                   style="width: 100%; display: block; border-radius: 8px"
                 />
               </div>
@@ -625,6 +604,27 @@
 
           <div class="depoimentos-area">
             <article class="depoimento">
+              <h3>Fernando M. Brusi Nogueira</h3>
+              <div class="stars">
+                <span></span><span></span><span></span><span></span
+                ><span></span>
+              </div>
+              <p>
+                Só tenho a agradecer pelo excelente serviço e cuidado que
+                recebi, desde o primeiro contato até a entrega dos materiais.
+                Contratei o serviço de conversão de fitas VHS e a experiência
+                foi excelente! Prazos combinados cumpridos, simpatia impecável
+                em todas as interações, resolução de dúvidas durante o processo.
+                Destacando ainda que entre as fitas, havia uma de valor
+                sentimental especial que seria muito importante receber de forma
+                rápida, e eles tiveram o cuidado e carinho de atender ao pedido,
+                mesmo sem nenhuma obrigação de fazer isso. Enfim, deixo meu
+                agradecimento sincero e votos de muito sucesso à equipe e à
+                empresa!
+              </p>
+            </article>
+
+            <article class="depoimento">
               <h3>Carolina Lima</h3>
               <div class="stars">
                 <span></span><span></span><span></span><span></span
@@ -635,46 +635,27 @@
                 digitalizar fitas VHS cheias de valor sentimental. O serviço foi
                 super rápido, o atendimento atencioso do início ao fim e o
                 resultado final incrível. Agora posso reviver essas memórias
-                sempre que quiser.<br />Parabéns pelo trabalho!
+                sempre que quiser. Parabéns pelo trabalho!
               </p>
             </article>
 
             <article class="depoimento">
-              <h3>Marcio Fernandes</h3>
+              <h3>Eder Alves</h3>
               <div class="stars">
                 <span></span><span></span><span></span><span></span
                 ><span></span>
               </div>
               <p>
-                Quero expressar minha sincera admiração e gratidão ao Grupo Time
-                Stop pelo excelente profissionalismo demonstrado em todo o
-                processo. Desde o nosso primeiro contato, a clareza e a precisão
-                das informações fornecidas sobre a empresa e sobre cada etapa do
-                processo pelo qual o meu material passaria foram notáveis,
-                gerando uma imediata e sólida confiança. O resultado foi
-                verdadeiramente fantástico: a possibilidade de rever e me
-                emocionar com arquivos de vídeos com mais de 25 anos é algo
-                inestimável. Agradeço imensamente a todos os envolvidos e desejo
-                que o Grupo Time Stop continue alcançando grande sucesso para
-                prosseguir com este trabalho maravilhoso de resgatar lembranças
-                e emoções.
-              </p>
-            </article>
-
-            <article class="depoimento">
-              <h3>Maria Luisa Folgosi Negri</h3>
-              <div class="stars">
-                <span></span><span></span><span></span><span></span
-                ><span></span>
-              </div>
-              <p>
-                Amamos o trabalho feito com nossas fitas de VHS convertidas em
-                digital. Recuperamos as memórias das filhas pequenas e tantas
-                outras historias das nossas vidas.<br />
-                Gratidão Grupo Time Stop!<br />
-                Comprometimento, seriedade e muito respeito com o material
-                trabalhado.<br />
-                Parabéns! São únicos!
+                Demorei a postar, foi em 08/10/25, mas hoje arrumando as gavetas
+                rsrs achei a sacola com a mensagem escrita a mão (foto anexa) e
+                não poderia deixar de registrar aqui esse trabalho simplesmente
+                impecável! Dá pra sentir o cuidado e o carinho com cada
+                material, sabendo que ali existem lembranças únicas e
+                insubstituíveis. Já é a segunda vez que utilizo o serviço,
+                primeiro com fitas VHS e agora com o DVD do meu casamento, e
+                mais uma vez fiquei emocionado com o resultado. Recomendo de
+                olhos fechados e, sempre que precisar, voltarei com eles com
+                toda certeza!
               </p>
             </article>
           </div>
@@ -711,19 +692,22 @@
           style="margin-top: 65px; align-items: center"
         >
           <div class="empresa">
-            <img src="./imagens/rede-globo.webp" alt="Globo" />
+            <img src="./imagens/rede-globo.webp" alt="Globo - logo dourada." />
           </div>
           <div class="empresa">
-            <img src="./imagens/ambev.webp" alt="Ambev" />
+            <img src="./imagens/ambev.webp" alt="Ambev - logo dourada." />
           </div>
           <div class="empresa">
-            <img src="./imagens/ford.webp" alt="Ford" />
+            <img src="./imagens/ford.webp" alt="Ford - logo dourada." />
           </div>
           <div class="empresa">
-            <img src="./imagens/braspress.webp" alt="Braspress" />
+            <img
+              src="./imagens/braspress.webp"
+              alt="Braspress - logo dourada."
+            />
           </div>
           <div class="empresa">
-            <img src="./imagens/mam.webp" alt="MAM" />
+            <img src="./imagens/mam.webp" alt="MAM - logo dourada." />
           </div>
         </div>
       </section>
@@ -751,11 +735,14 @@
       <div class="palavras content space">
         <div class="container black">
           <p>
-            digitalizar vhs santana de parnaíba, vhs para digital, vhs para pen
-            drive, foto antiga para pen drive, digitalizar álbum de fotos,
-            converter foto antiga santana de parnaíba, sp, fita cassete, super
-            8, betamax, memórias antigas, restaurar fita mofada, recuperar vhs
-            danificado
+            digitalização de documentos escolares no bairro Jardim Paulista,
+            empresa no Jardim Paulista, vhs escolar, gestão documental escolar
+            Jardim Paulista, conversão de prontuários de alunos, digitalização
+            de arquivos mortos escolares, scanner de documentos Jardim Paulista,
+            conversão de fita VHS para digital, digitalização de acervos
+            acadêmicos, organização de documentos escolares SP, empresa de
+            digitalização perto de faculdades, serviço de backup em nuvem
+            escolar, digitalização de históricos escolares
           </p>
         </div>
       </div>
@@ -878,7 +865,7 @@
                 <a href="https://timestop.com.br/depoimentos/"> Depoimentos </a>
               </li>
               <li>
-                <a href="https://grupotimestop.com.br/contato">Contato</a>
+                <a href="https://timestop.com.br/contato/">Contato</a>
               </li>
             </ul>
           </div>

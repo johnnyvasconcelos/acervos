@@ -1,20 +1,6 @@
 Digitalização de Acervos Escolares:
 
-Moema
-Itaim Bibi
-Vila Mariana
-Consolação
-Butantã
-Bairro Saúde
-Alphaville Barueri
-Ipiranga
-Aclimação
-Lapa
-Morumbi
-Alto de Pinheiros
-Campo Belo
-Jardim América
-Chácara Flora
+Jardim Paulista
 
 
 Aclimação ||
@@ -32,7 +18,7 @@ Itaim Bibi ||
 Jardim Europa |
 Jardim América ||
 Jardim Anália Franco ||
-Jardim Paulista |
+Jardim Paulista ||
 Jardim Paulistano |
 Lapa ||
 Moema ||
