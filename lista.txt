@@ -5,6 +5,10 @@ Pinheiros
 Jardim Paulistano
 Brooklin
 Higienópolis
+Paraíso
+Pacaembu
+
+
 
 
 Aclimação ||
@@ -28,10 +32,10 @@ Lapa ||
 Moema ||
 Mooca ||
 Higienópolis ||
-Pacaembu |
-Paraíso |
+Pacaembu ||
+Paraíso ||
 Perdizes |
-Pinheiros |
+Pinheiros ||
 Santana ||
 Santo Amaro ||
 Tatuapé ||
