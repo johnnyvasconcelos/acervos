@@ -2,12 +2,15 @@ Digitalização de Acervos Escolares:
 
 Jardim Paulista
 Pinheiros
+Jardim Paulistano
+Brooklin
+Higienópolis
 
 
 Aclimação ||
 Alto de Pinheiros ||
 Barra Funda |
-Brooklin |
+Brooklin ||
 Butantã ||
 Campo Belo ||
 Cerqueira César |
@@ -20,11 +23,11 @@ Jardim Europa |
 Jardim América ||
 Jardim Anália Franco ||
 Jardim Paulista ||
-Jardim Paulistano |
+Jardim Paulistano ||
 Lapa ||
 Moema ||
 Mooca ||
-Higienópolis |
+Higienópolis ||
 Pacaembu |
 Paraíso |
 Perdizes |
