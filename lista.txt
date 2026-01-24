@@ -8,7 +8,7 @@ Higienópolis
 Paraíso
 Pacaembu
 Barra Funda
-
+Jardim Europa
 
 
 
@@ -26,7 +26,7 @@ Cidade Jardim |
 Consolação ||
 Ipiranga ||
 Itaim Bibi ||
-Jardim Europa |
+Jardim Europa ||
 Jardim América ||
 Jardim Anália Franco ||
 Jardim Paulista ||
