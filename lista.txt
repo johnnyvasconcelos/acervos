@@ -9,7 +9,7 @@ Paraíso
 Pacaembu
 Barra Funda
 Jardim Europa
-
+Cerqueira César
 
 
 
@@ -20,7 +20,7 @@ Barra Funda ||
 Brooklin ||
 Butantã ||
 Campo Belo ||
-Cerqueira César |
+Cerqueira César ||
 Chácara Flora ||
 Cidade Jardim |
 Consolação ||
