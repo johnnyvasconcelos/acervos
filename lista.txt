@@ -10,6 +10,8 @@ Pacaembu
 Barra Funda
 Jardim Europa
 Cerqueira César
+Cidade Jardim
+Perdizes
 
 
 
@@ -22,7 +24,7 @@ Butantã ||
 Campo Belo ||
 Cerqueira César ||
 Chácara Flora ||
-Cidade Jardim |
+Cidade Jardim ||
 Consolação ||
 Ipiranga ||
 Itaim Bibi ||
@@ -37,7 +39,7 @@ Mooca ||
 Higienópolis ||
 Pacaembu ||
 Paraíso ||
-Perdizes |
+Perdizes ||
 Pinheiros ||
 Santana ||
 Santo Amaro ||
