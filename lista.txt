@@ -12,6 +12,7 @@ Jardim Europa
 Cerqueira César
 Cidade Jardim
 Perdizes
+Vila Nova Conceição
 
 
 
@@ -47,7 +48,7 @@ Tatuapé ||
 Vila Clementino |
 Vila Madalena |
 Vila Mariana ||
-Vila Nova Conceição |
+Vila Nova Conceição ||
 Vila Olímpia ||
 Vila Prudente ||
 Tamboré (Barueri) |
