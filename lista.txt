@@ -13,6 +13,7 @@ Cerqueira César
 Cidade Jardim
 Perdizes
 Vila Nova Conceição
+Vila Clementino
 
 
 
@@ -45,7 +46,7 @@ Pinheiros ||
 Santana ||
 Santo Amaro ||
 Tatuapé ||
-Vila Clementino |
+Vila Clementino ||
 Vila Madalena |
 Vila Mariana ||
 Vila Nova Conceição ||
