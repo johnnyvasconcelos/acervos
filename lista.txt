@@ -14,6 +14,7 @@ Cidade Jardim
 Perdizes
 Vila Nova Conceição
 Vila Clementino
+Vila Madalena
 
 
 
@@ -47,7 +48,7 @@ Santana ||
 Santo Amaro ||
 Tatuapé ||
 Vila Clementino ||
-Vila Madalena |
+Vila Madalena ||
 Vila Mariana ||
 Vila Nova Conceição ||
 Vila Olímpia ||
