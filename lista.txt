@@ -21,6 +21,7 @@ Tamboré (Barueri)
 Jardim (Santo André)
 Nova Petrópolis (São Bernardo do Campo)
 Vila Yara (Osasco)
+Bela Vista (Osasco)
 
 
 
@@ -73,7 +74,7 @@ ___ Alphaville (Barueri) |||
 Alphaville (Santana de Parnaíba) |
 Granja Viana (Cotia) |
 Vila Campesina (Osasco) |
-Bela Vista (Osasco) ||
+Bela Vista (Osasco) |||
 Jardim do Mar (São Bernando do Campo) |
 Rudge Ramos (São Bernardo do Campo) |
 Nova Petrópolis (São Bernardo do Campo) ||
