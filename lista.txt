@@ -18,6 +18,7 @@ Vila Madalena
 Jardins
 São Caetano do Sul
 Tamboré (Barueri)
+Jardim (Santo André)
 
 
 
@@ -65,7 +66,7 @@ Morumbi ||
 Saúde ||
 ___ Jardins (região) |||
 Chácara Santo Antônio ||
-Jardim (Santo André) |
+Jardim (Santo André) ||
 ___ Alphaville (Barueri) |||
 Alphaville (Santana de Parnaíba) |
 Granja Viana (Cotia) |
