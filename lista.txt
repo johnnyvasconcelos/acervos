@@ -27,6 +27,9 @@ Bela Vista (Osasco)
 
 
 
+___ Jardins (região) |||
+___ Alphaville (Barueri) |||
+___ Bela Vista (Osasco) |||
 Aclimação ||
 Alto de Pinheiros ||
 Barra Funda ||
@@ -67,17 +70,15 @@ Jardim Bela Vista (Santo André) |
 Campestre (Santo André) |
 Morumbi ||
 Saúde ||
-___ Jardins (região) |||
 Chácara Santo Antônio ||
 Jardim (Santo André) ||
-___ Alphaville (Barueri) |||
 Alphaville (Santana de Parnaíba) |
 Granja Viana (Cotia) |
 Vila Campesina (Osasco) |
-Bela Vista (Osasco) |||
 Jardim do Mar (São Bernando do Campo) |
 Rudge Ramos (São Bernardo do Campo) |
 Nova Petrópolis (São Bernardo do Campo) ||
 São Caetano do Sul (Cidade Inteira) ||
 
 Bônus:
+8
