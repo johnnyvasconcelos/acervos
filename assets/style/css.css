@@ -340,6 +340,9 @@ h3 {
 .img-background-4 {
   background-image: url("../../imagens/camera-background.webp");
 }
+.img-background-5 {
+  background-image: url("../../imagens/memoria-escolar.webp");
+}
 .gray {
   background: linear-gradient(to bottom, #232121c6, #232121c6, var(--color-1));
   width: 100%;

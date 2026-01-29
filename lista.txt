@@ -20,6 +20,7 @@ São Caetano do Sul
 Tamboré (Barueri)
 Jardim (Santo André)
 Nova Petrópolis (São Bernardo do Campo)
+Vila Yara (Osasco)
 
 
 
@@ -60,7 +61,7 @@ Vila Nova Conceição ||
 Vila Olímpia ||
 Vila Prudente ||
 Tamboré (Barueri) ||
-Vila Yara (Osasco) |
+Vila Yara (Osasco) ||
 Jardim Bela Vista (Santo André) |
 Campestre (Santo André) |
 Morumbi ||
