@@ -16,6 +16,9 @@ Vila Nova Conceição
 Vila Clementino
 Vila Madalena
 Jardins
+São Caetano do Sul
+Tamboré (Barueri)
+
 
 
 
@@ -54,7 +57,7 @@ Vila Mariana ||
 Vila Nova Conceição ||
 Vila Olímpia ||
 Vila Prudente ||
-Tamboré (Barueri) |
+Tamboré (Barueri) ||
 Vila Yara (Osasco) |
 Jardim Bela Vista (Santo André) |
 Campestre (Santo André) |
@@ -71,6 +74,6 @@ Bela Vista (Osasco) ||
 Jardim do Mar (São Bernando do Campo) |
 Rudge Ramos (São Bernardo do Campo) |
 Nova Petrópolis (São Bernardo do Campo) |
-São Caetano do Sul (Cidade Inteira) |
+São Caetano do Sul (Cidade Inteira) ||
 
 Bônus:
