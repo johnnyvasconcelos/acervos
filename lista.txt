@@ -19,6 +19,7 @@ Jardins
 São Caetano do Sul
 Tamboré (Barueri)
 Jardim (Santo André)
+Nova Petrópolis (São Bernardo do Campo)
 
 
 
@@ -74,7 +75,7 @@ Vila Campesina (Osasco) |
 Bela Vista (Osasco) ||
 Jardim do Mar (São Bernando do Campo) |
 Rudge Ramos (São Bernardo do Campo) |
-Nova Petrópolis (São Bernardo do Campo) |
+Nova Petrópolis (São Bernardo do Campo) ||
 São Caetano do Sul (Cidade Inteira) ||
 
 Bônus:
