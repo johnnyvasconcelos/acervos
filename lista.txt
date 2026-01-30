@@ -23,6 +23,7 @@ Nova Petrópolis (São Bernardo do Campo)
 Vila Yara (Osasco)
 Bela Vista (Osasco)
 Rudge Ramos (São Bernardo do Campo)
+Vila Campesina (Osasco)
 
 
 
@@ -76,7 +77,7 @@ Chácara Santo Antônio ||
 Jardim (Santo André) ||
 Alphaville (Santana de Parnaíba) |
 Granja Viana (Cotia) |
-Vila Campesina (Osasco) |
+Vila Campesina (Osasco) ||
 Jardim do Mar (São Bernando do Campo) |
 Rudge Ramos (São Bernardo do Campo) ||
 Nova Petrópolis (São Bernardo do Campo) ||
