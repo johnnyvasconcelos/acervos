@@ -27,6 +27,8 @@ Vila Campesina (Osasco)
 Jardim do Mar (São Bernardo do Campo)
 Campestre (Santo André)
 Granja Viana (Cotia)
+Alphaville (Santana de Parnaíba)
+Jardim Bela Vista (Santo André)
 
 
 
@@ -71,13 +73,13 @@ Vila Olímpia ||
 Vila Prudente ||
 Tamboré (Barueri) ||
 Vila Yara (Osasco) ||
-Jardim Bela Vista (Santo André) |
+Jardim Bela Vista (Santo André) ||
 Campestre (Santo André) ||
 Morumbi ||
 Saúde ||
 Chácara Santo Antônio ||
 Jardim (Santo André) ||
-Alphaville (Santana de Parnaíba) |
+Alphaville (Santana de Parnaíba) ||
 Granja Viana (Cotia) ||
 Vila Campesina (Osasco) ||
 Jardim do Mar (São Bernando do Campo) ||
@@ -86,4 +88,12 @@ Nova Petrópolis (São Bernardo do Campo) ||
 São Caetano do Sul (Cidade Inteira) ||
 
 Bônus:
-8
+
+Bauru
+Campinas
+Marília
+Sorocaba
+Ribeirão Preto
+Jundiaí
+São José dos Campos
+Santos
