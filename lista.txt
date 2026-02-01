@@ -34,7 +34,8 @@ Jardim Anália Franco
 
 
 
-Jardim Anália Franco ||
+
+Jardim Paulistano ||
 Mooca ||
 Santana ||
 Santo Amaro ||
@@ -42,7 +43,7 @@ Tatuapé ||
 Vila Olímpia ||
 Vila Prudente ||
 Chácara Santo Antônio ||
-___ Jardim Paulistano |||
+___ Jardim Anália Franco |||
 ___ Jardins (região) |||
 ___ Alphaville (Barueri) |||
 ___ Bela Vista (Osasco) |||
