@@ -25,6 +25,7 @@ Bela Vista (Osasco)
 Rudge Ramos (São Bernardo do Campo)
 Vila Campesina (Osasco)
 Jardim do Mar (São Bernardo do Campo)
+Campestre (Santo André)
 
 
 
@@ -70,7 +71,7 @@ Vila Prudente ||
 Tamboré (Barueri) ||
 Vila Yara (Osasco) ||
 Jardim Bela Vista (Santo André) |
-Campestre (Santo André) |
+Campestre (Santo André) ||
 Morumbi ||
 Saúde ||
 Chácara Santo Antônio ||
@@ -78,7 +79,7 @@ Jardim (Santo André) ||
 Alphaville (Santana de Parnaíba) |
 Granja Viana (Cotia) |
 Vila Campesina (Osasco) ||
-Jardim do Mar (São Bernando do Campo) |
+Jardim do Mar (São Bernando do Campo) ||
 Rudge Ramos (São Bernardo do Campo) ||
 Nova Petrópolis (São Bernardo do Campo) ||
 São Caetano do Sul (Cidade Inteira) ||
