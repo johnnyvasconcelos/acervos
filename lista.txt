@@ -26,6 +26,7 @@ Rudge Ramos (São Bernardo do Campo)
 Vila Campesina (Osasco)
 Jardim do Mar (São Bernardo do Campo)
 Campestre (Santo André)
+Granja Viana (Cotia)
 
 
 
@@ -77,7 +78,7 @@ Saúde ||
 Chácara Santo Antônio ||
 Jardim (Santo André) ||
 Alphaville (Santana de Parnaíba) |
-Granja Viana (Cotia) |
+Granja Viana (Cotia) ||
 Vila Campesina (Osasco) ||
 Jardim do Mar (São Bernando do Campo) ||
 Rudge Ramos (São Bernardo do Campo) ||
