@@ -34,19 +34,18 @@ Jardim Anália Franco
 
 
 
-
-Jardim Paulistano ||
-Mooca ||
+___ Jardim Anália Franco |||
+___ Jardins (Região) |||
+___ Alphaville (Barueri) |||
+___ Bela Vista (Osasco) |||
+___ Mooca |||
 Santana ||
 Santo Amaro ||
 Tatuapé ||
 Vila Olímpia ||
 Vila Prudente ||
 Chácara Santo Antônio ||
-___ Jardim Anália Franco |||
-___ Jardins (região) |||
-___ Alphaville (Barueri) |||
-___ Bela Vista (Osasco) |||
+
 _ Aclimação ||
 _ Alto de Pinheiros ||
 _ Barra Funda ||
@@ -60,6 +59,7 @@ _ Consolação ||
 _ Ipiranga ||
 _ Itaim Bibi ||
 _ Jardim Europa ||
+_ Jardim Paulistano ||
 _ Jardim América ||
 _ Jardim Paulista ||
 _ Lapa ||
