@@ -33,6 +33,9 @@ Jardim Anália Franco
 Mooca
 Santana
 Santo Amaro
+Tatuapé
+Vila Olímpia
+
 
 
 
@@ -44,9 +47,9 @@ ___ Bela Vista (Osasco) |||
 ___ Mooca |||
 ___ Santana |||
 ___ Santo Amaro |||
-Tatuapé ||
-Vila Olímpia ||
-Vila Prudente ||
+___ Tatuapé |||
+___ Vila Olímpia |||
+___ Vila Prudente |||
 Chácara Santo Antônio ||
 
 _ Aclimação ||
