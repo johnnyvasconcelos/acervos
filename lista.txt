@@ -32,6 +32,7 @@ Jardim Bela Vista (Santo André)
 Jardim Anália Franco
 Mooca
 Santana
+Santo Amaro
 
 
 
@@ -42,7 +43,7 @@ ___ Alphaville (Barueri) |||
 ___ Bela Vista (Osasco) |||
 ___ Mooca |||
 ___ Santana |||
-Santo Amaro ||
+___ Santo Amaro |||
 Tatuapé ||
 Vila Olímpia ||
 Vila Prudente ||
