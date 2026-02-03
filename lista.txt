@@ -1,13 +1,12 @@
 por favor, refaça pra mim o texto do description de forma diferente, e 10 palavras-chaves que tenham a ver,
 Trabalho: digitalização / conversão de fitas vhs, cassete, vinil, rolo de  filme, rolo de áudio, fotos antigas para digital em pen drive, hd externo ou nuvem.
-palavra-chave: digitalização de acervos escolares na Chácara Santo Antônio, São Paulo
-publico alvo são casas e pessoas que tem memórias escolares, recordações de formatura, etc
-a empresa não está nessa região, mas ela precisa estar na palavra-chave
+palavra-chave: digitalização de acervos empresariais na Aclimação, São Paulo
+publico alvo são pessoas que tem memórias empresariais, recordações importantes, fotos, etc
+a empresa dona do texto não está nessa região, mas a região precisa estar na palavra-chave
 
 
 
 Digitalização de Acervos Escolares:
-
 Jardim Paulista
 Pinheiros
 Jardim Paulistano
@@ -46,6 +45,9 @@ Vila Olímpia
 Vila Prudente
 Chácara Santo Antônio
 
+Digitalização de Acervos Empresariais:
+Aclimação
+Alto de Pinheiros
 
 
 
@@ -60,9 +62,10 @@ ___ Tatuapé |||
 ___ Vila Olímpia |||
 ___ Vila Prudente |||
 ___ Chácara Santo Antônio |||
+___ Aclimação |||
+___ Alto de Pinheiros |||
 
-_ Aclimação ||
-_ Alto de Pinheiros ||
+
 _ Barra Funda ||
 _ Brooklin ||
 _ Butantã ||
