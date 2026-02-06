@@ -1,6 +1,6 @@
 por favor, refaça pra mim o texto do description de forma diferente, e 10 palavras-chaves que tenham a ver,
 Trabalho: digitalização / conversão de fitas vhs, cassete, vinil, rolo de  filme, rolo de áudio, fotos antigas para digital em pen drive, hd externo ou nuvem.
-palavra-chave: digitalização de acervos empresariais na Aclimação, São Paulo
+palavra-chave: digitalização de acervos empresariais na Brooklin, São Paulo
 publico alvo são pessoas que tem memórias empresariais, recordações importantes, fotos, etc
 a empresa dona do texto não está nessa região, mas a região precisa estar na palavra-chave
 
@@ -48,6 +48,8 @@ Chácara Santo Antônio
 Digitalização de Acervos Empresariais:
 Aclimação
 Alto de Pinheiros
+Barra Funda
+Aclimação
 
 
 
@@ -65,15 +67,17 @@ ___ Chácara Santo Antônio |||
 ___ Aclimação |||
 ___ Alto de Pinheiros |||
 ___ Barra Funda |||
+___ Brooklin |||
+___ Butantã |||
+___ Campo Belo |||
+___ Cerqueira César |||
+___ Chácara Flora |||
+___ Cidade Jardim |||
 
 
-_ Barra Funda ||
-_ Brooklin ||
-_ Butantã ||
-_ Campo Belo ||
-_ Cerqueira César ||
-_ Chácara Flora ||
-_ Cidade Jardim ||
+
+
+
 _ Consolação ||
 _ Ipiranga ||
 _ Itaim Bibi ||
