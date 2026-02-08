@@ -75,12 +75,11 @@ ___ Chácara Flora |||
 ___ Cidade Jardim |||
 ___ Consolação |||
 ___ Ipiranga |||
+___ Itaim Bibi |||
 
 
 
 
-
-_ Itaim Bibi ||
 _ Jardim Europa ||
 _ Jardim Paulistano ||
 _ Jardim América ||
