@@ -77,13 +77,12 @@ ___ Consolação |||
 ___ Ipiranga |||
 ___ Itaim Bibi |||
 ___ Jardim Europa |||
+___ Jardim Paulistano |||
+___ Jardim Paulista |||
 
 
 
-
-_ Jardim Paulistano ||
 _ Jardim América ||
-_ Jardim Paulista ||
 _ Lapa ||
 _ Moema ||
 _ Higienópolis ||
