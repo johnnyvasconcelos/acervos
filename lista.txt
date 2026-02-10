@@ -1,6 +1,6 @@
 por favor, refaça pra mim o texto do description de forma diferente, e 10 palavras-chaves que tenham a ver,
 Trabalho: digitalização / conversão de fitas vhs, cassete, vinil, rolo de  filme, rolo de áudio, fotos antigas para digital em pen drive, hd externo ou nuvem.
-palavra-chave: digitalização de acervos empresariais na Brooklin, São Paulo
+palavra-chave: digitalização de acervos empresariais na Lapa, São Paulo
 publico alvo são pessoas que tem memórias empresariais, recordações importantes, fotos, etc
 a empresa dona do texto não está nessa região, mas a região precisa estar na palavra-chave. palavras-chaves separadas por vírgulas pra facilitar
 
@@ -45,11 +45,26 @@ Vila Olímpia
 Vila Prudente
 Chácara Santo Antônio
 
+
 Digitalização de Acervos Empresariais:
 Aclimação
 Alto de Pinheiros
 Barra Funda
 Aclimação
+Brooklin
+Butantã
+Campo Belo
+Cerqueira César
+Cidade Jardim
+Consolação
+Ipiranga
+Itaim Bibi
+Jardim Europa
+Jaridm Paulista
+Jardim Paulistano
+Jardim América
+Lapa
+Moema
 
 
 
@@ -79,13 +94,13 @@ ___ Itaim Bibi |||
 ___ Jardim Europa |||
 ___ Jardim Paulistano |||
 ___ Jardim Paulista |||
+___ Jardim América |||
+___ Lapa |||
+___ Moema |||
+_ Higienópolis |||
 
 
 
-_ Jardim América ||
-_ Lapa ||
-_ Moema ||
-_ Higienópolis ||
 _ Pacaembu ||
 _ Paraíso ||
 _ Perdizes ||
