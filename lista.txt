@@ -65,6 +65,7 @@ Jardim Paulistano
 Jardim América
 Lapa
 Moema
+Higienópolis
 
 
 
@@ -97,7 +98,7 @@ ___ Jardim Paulista |||
 ___ Jardim América |||
 ___ Lapa |||
 ___ Moema |||
-_ Higienópolis |||
+___ Higienópolis |||
 
 
 
