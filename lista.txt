@@ -67,6 +67,7 @@ Lapa
 Moema
 Higienópolis
 Pacaembu
+Paraíso
 
 
 
@@ -101,11 +102,10 @@ ___ Lapa |||
 ___ Moema |||
 ___ Higienópolis |||
 ___ Pacaembu |||
+___ Paraíso |||
 
 
 
-
-_ Paraíso ||
 _ Perdizes ||
 _ Pinheiros ||
 _ Vila Clementino ||
