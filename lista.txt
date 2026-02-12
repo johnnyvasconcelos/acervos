@@ -105,11 +105,12 @@ ___ Higienópolis |||
 ___ Pacaembu |||
 ___ Paraíso |||
 ___ Perdizes |||
+___ Pinheiros |||
 
 
 
 
-_ Pinheiros ||
+
 _ Vila Clementino ||
 _ Vila Madalena ||
 _ Vila Mariana ||
