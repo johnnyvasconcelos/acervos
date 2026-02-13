@@ -1,6 +1,6 @@
 por favor, refaça pra mim o texto do description de forma diferente, e 10 palavras-chaves que tenham a ver,
 Trabalho: digitalização / conversão de fitas vhs, cassete, vinil, rolo de  filme, rolo de áudio, fotos antigas para digital em pen drive, hd externo ou nuvem.
-palavra-chave: digitalização de acervos empresariais no bairro Perdizes, São Paulo
+palavra-chave: digitalização de acervos empresariais no bairro Vila Clementino, São Paulo
 publico alvo são pessoas que tem memórias empresariais, recordações importantes, fotos, etc
 a empresa dona do texto não está nessa região, mas a região precisa estar na palavra-chave. palavras-chaves separadas por vírgulas pra facilitar, repetindo palavras chave separadas por vírgulas pra facilitar
 
@@ -69,6 +69,8 @@ Higienópolis
 Pacaembu
 Paraíso
 Perdizes
+Pinheiros
+Vila Clementino
 
 
 
@@ -106,12 +108,12 @@ ___ Pacaembu |||
 ___ Paraíso |||
 ___ Perdizes |||
 ___ Pinheiros |||
+___ Vila Clementino |||
 
 
 
 
 
-_ Vila Clementino ||
 _ Vila Madalena ||
 _ Vila Mariana ||
 _ Vila Nova Conceição ||
