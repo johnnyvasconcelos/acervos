@@ -1,49 +1,49 @@
 por favor, refaça pra mim o texto do description de forma diferente, e 10 palavras-chaves que tenham a ver,
 Trabalho: digitalização / conversão de fitas vhs, cassete, vinil, rolo de  filme, rolo de áudio, fotos antigas para digital em pen drive, hd externo ou nuvem.
-palavra-chave: digitalização de acervos empresariais no bairro Vila Mariana, São Paulo
+palavra-chave: digitalização de acervos empresariais no bairro Tamboré, Barueri (São Paulo)
 publico alvo são pessoas que tem memórias empresariais, recordações importantes, fotos, etc
 a empresa dona do texto não está nessa região, mas a região precisa estar na palavra-chave. palavras-chaves separadas por vírgulas pra facilitar, repetindo palavras chave separadas por vírgulas pra facilitar, linguagem direta apenas oferecendo o serviço com seo pra quem quiser buscar, apenas isso
 
 
 
 Digitalização de Acervos Escolares:
-Jardim Paulista
-Pinheiros
-Jardim Paulistano
-Brooklin
-Higienópolis
-Paraíso
-Pacaembu
-Barra Funda
-Jardim Europa
-Cerqueira César
-Cidade Jardim
-Perdizes
-Vila Nova Conceição
-Vila Clementino
-Vila Madalena
-Jardins
-São Caetano do Sul
-Tamboré (Barueri)
-Jardim (Santo André)
-Nova Petrópolis (São Bernardo do Campo)
-Vila Yara (Osasco)
-Bela Vista (Osasco)
-Rudge Ramos (São Bernardo do Campo)
-Vila Campesina (Osasco)
-Jardim do Mar (São Bernardo do Campo)
-Campestre (Santo André)
-Granja Viana (Cotia)
-Alphaville (Santana de Parnaíba)
-Jardim Bela Vista (Santo André)
-Jardim Anália Franco
-Mooca
-Santana
-Santo Amaro
-Tatuapé
-Vila Olímpia
-Vila Prudente
-Chácara Santo Antônio
+Jardim Paulista |
+Pinheiros |
+Jardim Paulistano |
+Brooklin |
+Higienópolis |
+Paraíso |
+Pacaembu |
+Barra Funda |
+Jardim Europa |
+Cerqueira César |
+Cidade Jardim |
+Perdizes |
+Vila Nova Conceição |
+Vila Clementino |
+Vila Madalena |
+Jardins |
+São Caetano do Sul |
+Tamboré (Barueri) |
+Jardim (Santo André) |
+Nova Petrópolis (São Bernardo do Campo) |
+Vila Yara (Osasco) |
+Bela Vista (Osasco) |
+Rudge Ramos (São Bernardo do Campo) |
+Vila Campesina (Osasco) |
+Jardim do Mar (São Bernardo do Campo) |
+Campestre (Santo André) |
+Granja Viana (Cotia) |
+Alphaville (Santana de Parnaíba) |
+Jardim Bela Vista (Santo André) |
+Jardim Anália Franco |
+Mooca |
+Santana |
+Santo Amaro |
+Tatuapé |
+Vila Olímpia |
+Vila Prudente |
+Chácara Santo Antônio |
 
 
 Digitalização de Acervos Empresariais:
@@ -73,6 +73,8 @@ Pinheiros
 Vila Clementino
 Vila Madalena
 Vila Mariana
+Vila Nova Conceição
+Tamboré
 
 
 
@@ -113,12 +115,13 @@ ___ Pinheiros |||
 ___ Vila Clementino |||
 ___ Vila Madalena |||
 ___ Vila Mariana |||
+___ Vila Nova Conceição |||
+___ Tamboré (Barueri) |||
 
 
 
 
-_ Vila Nova Conceição ||
-_ Tamboré (Barueri) ||
+
 _ Vila Yara (Osasco) ||
 _ Jardim Bela Vista (Santo André) ||
 _ Campestre (Santo André) ||
