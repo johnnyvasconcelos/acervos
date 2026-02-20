@@ -74,7 +74,10 @@ Vila Clementino
 Vila Madalena
 Vila Mariana
 Vila Nova Conceição
-Tamboré
+Tamboré Barueri
+Vila Yara Osasco
+
+
 
 
 
@@ -117,12 +120,12 @@ ___ Vila Madalena |||
 ___ Vila Mariana |||
 ___ Vila Nova Conceição |||
 ___ Tamboré (Barueri) |||
+___ Vila Yara (Osasco) |||
 
 
 
 
 
-_ Vila Yara (Osasco) ||
 _ Jardim Bela Vista (Santo André) ||
 _ Campestre (Santo André) ||
 _ Morumbi ||
