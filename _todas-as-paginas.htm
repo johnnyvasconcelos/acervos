@@ -9,903 +9,1564 @@
     <script src="./_paginas.js" defer></script>
     <title>Páginas Feitas</title>
     <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .wrapper {
+        max-width: 100vw;
+        overflow-x: auto;
+      }
       body {
         font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
         background: linear-gradient(135deg, #f0f0f5, #e3e8ff);
         margin: 0;
-        padding: 20px;
+        padding: 40px 20px 20px 20px;
       }
-
-      h1 {
+      .title {
+        width: 90%;
+        min-width: 800px;
+        margin: 20px auto;
         text-align: center;
-        color: #333;
-        margin-bottom: 30px;
+        text-transform: uppercase;
       }
-
-      .grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-        gap: 20px;
-        max-width: 1200px;
-        margin: auto;
+      table {
+        width: 90%;
+        min-width: 800px;
+        background-color: white;
+        border: 1px solid #d25a62;
+        padding: 0;
+        border-collapse: separate;
+        border-spacing: 1px;
+        margin: 0 auto;
       }
-
-      .card {
-        background: #fff;
-        border-radius: 15px;
-        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-        padding: 20px;
-        transition:
-          transform 0.2s ease,
-          box-shadow 0.2s ease;
+      table tr {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        cursor: pointer;
       }
-      .grid {
-        counter-reset: h2count;
+      table tr:nth-of-type(1) {
+        border-bottom: 1px solid #ddd;
       }
-      .card h2::before {
-        counter-increment: h2count;
-        content: counter(h2count) ". ";
-        font-weight: 600;
-        margin-right: 4px;
+      table tr:hover td {
+        background-color: #8e343a;
       }
-      .card:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 10px 18px rgba(0, 0, 0, 0.15);
+      table tr:nth-child(even) {
+        background: #bd4e55;
       }
-
-      .card h2 {
-        font-size: 1.2rem;
-        margin: 0 0 15px;
-        color: #444;
+      table tr:nth-child(odd) {
+        background: #bd4e55;
       }
-
-      .card a {
-        display: inline-block;
-        text-decoration: none;
-        background: linear-gradient(135deg, #4e54c8, #8f94fb);
+      table tr th {
+        padding: 5px;
+        background: #bd4e55;
         color: white;
-        padding: 10px 18px;
-        border-radius: 8px;
-        font-weight: bold;
-        transition: background 0.3s ease;
+        font-weight: 700;
+        border-radius: 1px;
       }
-
-      .card a:hover {
-        background: linear-gradient(135deg, #3b3fc1, #6f75e9);
+      table tr td {
+        padding: 5px;
+        text-align: center;
+        border-radius: 1px;
+        color: white;
+        border: 1px solid #bd4e55;
+      }
+      table tr td a {
+        border: none;
+        display: block;
+        color: #f4f59a;
+        font-size: 11px;
+        text-decoration: none;
+        font-weight: 700;
+        padding: 5px;
+        border-radius: 1px;
+        text-transform: uppercase;
+        transition: 0.3s all ease-out;
+      }
+      table tr td a span {
+        display: inline-block;
+        transform: translateY(-2px);
+      }
+      table tr td:nth-of-type(2) {
+        color: #f4f59a;
+      }
+      table tr .non {
+        background-color: #c82232;
+      }
+      table tr .yep {
+        background-color: #18854b;
       }
     </style>
   </head>
   <body>
-    <h1>Acervos Escolares</h1>
-    <div class="grid">
-      <div class="card">
-        <h2>Aclimação</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-aclimacao.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Vila Yara Osasco</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-vila-yara-osasco.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Vila Prudente</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-vila-prudente.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Vila Olímpia</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-vila-olimpia.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Vila Nova Conceição</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-vila-nova-conceicao.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Vila Mariana</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-vila-mariana.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-      <div class="card">
-        <h2>Vila Madalena</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-vila-madalena.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Vila Clementino</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-vila-clementino.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Vila Campesina Osasco</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-vila-campesina-osasco.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Tatuapé</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-tatuape.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Tamboré Barueri</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-tambore-barueri.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>São Caetano do Sul</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-sao-caetano-do-sul.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Santo Amaro</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-santo-amaro.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Santana</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-santana.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Rudge Ramos São Bernardo</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-rudge-ramos-sao-bernardo-do-campo.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Pinheiros</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-pinheiros.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Perdizes</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-perdizes.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Paraíso</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-paraiso.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Pacaembu</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-pacaembu.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Nova Petrópolis São Bernardo</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-nova-petropolis-sao-bernardo-do-campo.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Brooklin</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-no-brooklin.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Chácara Flora</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-na-chacara-flora.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Morumbi</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-morumbi.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Mooca</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-mooca.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Moema</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-moema.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Lapa</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-lapa.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Jardins (Região)</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-jardins-regiao-sp.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Jardim Santo André</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-jardim-santo-andre.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Jardim Paulistano</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-jardim-paulistano.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Jardim Paulista</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-jardim-paulista.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Jardim Europa</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-jardim-europa.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Jardim do Mar São Bernardo do Campo</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-jardim-do-mar-sao-bernardo-do-campo.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Jardim Bela Vista Santo Amaro</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-jardim-bela-vista-santo-andre.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Jardim Anália Franco</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-jardim-analia-franco.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-      <div class="card">
-        <h2>Jardim América</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-jardim-america.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Itaim Bibi</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-itaim-bibi.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Ipiranga</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-ipiranga.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-      <div class="card">
-        <h2>Higienópolis</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-higienopolis.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Granja Viana Cotia</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-granja-viana-cotia.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Consolação</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-consolacao.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Cidade Jardim</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-cidade-jardim.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Chácara Santo Antônio</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-chacara-santo-antonio.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Cerqueira César</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-cerqueira-cesar.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Campestre Santo André</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-campestre-santo-andre.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Butantã</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-butanta.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Bela Vista Osasco</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-bela-vista-osasco.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Barra Funda</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-barra-funda.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Saúde</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-bairro-saude.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Alto de Pinheiros</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-alto-de-pinheiros.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Alphaville Santana de Parnaíba</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-alphaville-santana-de-parnaiba.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Alphaville Barueri</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-alphaville-barueri.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-    </div>
-    <h1>Acervos Empresariais</h1>
-    <div class="grid">
-      <div class="card">
-        <h2>Vila Yara Osasco</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-vila-yara-osasco.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Vila Prudente</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-vila-prudente.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Vila Olímpia</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-vila-olimpia.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Vila Nova Conceição</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-vila-nova-conceicao.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Vila Mariana</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-vila-mariana.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Vila Madalena</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-vila-madalena.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-      <div class="card">
-        <h2>Vila Clementino</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-vila-clementino.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Tatuapé</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-tatuape.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Tamboré Barueri</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-tambore-barueri.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Santo Amaro</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-santo-amaro.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Santana</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-santana.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Pinheiros</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-pinheiros.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Perdizes</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-perdizes.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Paraíso</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-paraiso.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Pacaembu</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-pacaembu.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Moema</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-no-moema.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Campo Belo</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-no-campo-belo.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Butantã</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-no-butanta.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Brooklin</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-no-brooklin.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Lapa</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-na-lapa.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Cerqueira César</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-na-cidade-de-cerqueira-cesar.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Chácara Flora</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-na-chacara-flora.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Mooca</h2>
-        <a
-          href="https://timestop.com.br/servicos/ digitalizacao-de-acervos-empresariais-mooca.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Jardins</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-jardins-sp.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Jardim Paulistano</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-jardim-paulistano.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Jardim Paulista</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-jardim-paulista.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Jardim Europa</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-jardim-europa-sp.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Jardim Bela Vista Santo André</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-jardim-bela-vista-santo-andre.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Jardim Anália Franco</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-jardim-analia-franco.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Jardim América</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-jardim-america.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Ipiranga</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-ipiranga.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Higienópolis</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-higienopolis.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Consolação</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-consolacao.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Cidade Jardim</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-cidade-jardim.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Chácara Santo Antônio</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-chacara-santo-antonio.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Campestre Santo André</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-campestre-santo-andre.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Bela Vista Osasco</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-bela-vista-osasco.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Barra Funda</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-barra-funda.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Alto de Pinheiros</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-alto-de-pinheiros.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Alphaville Barueri</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-alphaville-barueri.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-
-      <div class="card">
-        <h2>Aclimação</h2>
-        <a
-          href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-aclimacao.html"
-          target="_blank"
-          >Acessar &raquo;</a
-        >
-      </div>
-    </div>
-    <h1>Gerais</h1>
-    <div class="grid">
+    <div class="wrapper">
+      <h2 class="title">Acervos Escolares</h2>
+      <table>
+        <tr>
+          <th>ID</th>
+          <th>Especialidade</th>
+          <th>Nome da Região</th>
+          <th>Valor Cobrado</th>
+          <th>Visualização</th>
+          <th>Ajuste Google</th>
+        </tr>
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Escolar</td>
+          <td>Aclimação</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-aclimacao.html"
+              >Acessar <span>»</span></a
+            >
+          </td>
+          <td>NÃO</td>
+        </tr>
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Escolar</td>
+          <td>Aclimação</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-aclimacao.html"
+              >Acessar <span>»</span></a
+            >
+          </td>
+          <td>NÃO</td>
+        </tr>
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Escolar</td>
+          <td>Vila Yara Osasco</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-vila-yara-osasco.html"
+              >Acessar <span>»</span></a
+            >
+          </td>
+          <td>NÃO</td>
+        </tr>
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Escolar</td>
+          <td>Vila Prudente</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-vila-prudente.html"
+              >Acessar <span>»</span></a
+            >
+          </td>
+          <td>NÃO</td>
+        </tr>
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Escolar</td>
+          <td>Vila Olímpia</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-vila-olimpia.html"
+              >Acessar <span>»</span></a
+            >
+          </td>
+          <td>NÃO</td>
+        </tr>
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Escolar</td>
+          <td>Vila Nova Conceição</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-vila-nova-conceicao.html"
+              >Acessar <span>»</span></a
+            >
+          </td>
+          <td>NÃO</td>
+        </tr>
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Escolar</td>
+          <td>Vila Mariana</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-vila-mariana.html"
+              >Acessar <span>»</span></a
+            >
+          </td>
+          <td>NÃO</td>
+        </tr>
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Escolar</td>
+          <td>Vila MaDALENA</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-vila-madalena.html"
+              >Acessar <span>»</span></a
+            >
+          </td>
+          <td>NÃO</td>
+        </tr>
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Escolar</td>
+          <td>Vila Clementino</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-vila-clementino.html"
+              >Acessar <span>»</span></a
+            >
+          </td>
+          <td>NÃO</td>
+        </tr>
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Escolar</td>
+          <td>Vila Campesina Osasco</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-vila-campesina-osasco.html"
+              >Acessar <span>»</span></a
+            >
+          </td>
+          <td>NÃO</td>
+        </tr>
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Escolar</td>
+          <td>Tatuapé</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-tatuape.html"
+              >Acessar <span>»</span></a
+            >
+          </td>
+          <td>NÃO</td>
+        </tr>
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Escolar</td>
+          <td>Tamboré Barueri</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-tambore-barueri.html"
+              >Acessar <span>»</span></a
+            >
+          </td>
+          <td>NÃO</td>
+        </tr>
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Escolar</td>
+          <td>São Caetano do Sul</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-sao-caetano-do-sul.html"
+              >Acessar <span>»</span></a
+            >
+          </td>
+          <td>NÃO</td>
+        </tr>
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Escolar</td>
+          <td>Santo Amaro</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-santo-amaro.html"
+              >Acessar <span>»</span></a
+            >
+          </td>
+          <td>NÃO</td>
+        </tr>
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Escolar</td>
+          <td>Santana</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-santana.html"
+              >Acessar <span>»</span></a
+            >
+          </td>
+          <td>NÃO</td>
+        </tr>
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Escolar</td>
+          <td>Rudge Ramos SBC</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-rudge-ramos-sao-bernardo-do-campo.html"
+              >Acessar <span>»</span></a
+            >
+          </td>
+          <td>NÃO</td>
+        </tr>
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Escolar</td>
+          <td>Nova Petrópolis SBC</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-nova-petropolis-sao-bernardo-do-campo.html"
+              >Acessar <span>»</span></a
+            >
+          </td>
+          <td>NÃO</td>
+        </tr>
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Escolar</td>
+          <td>Pinheiros</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-pinheiros.html"
+              >Acessar <span>»</span></a
+            >
+          </td>
+          <td>NÃO</td>
+        </tr>
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Escolar</td>
+          <td>Perdizes</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-perdizes.html"
+              >Acessar <span>»</span></a
+            >
+          </td>
+          <td>NÃO</td>
+        </tr>
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Escolar</td>
+          <td>Paraíso</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-paraiso.html"
+              >Acessar <span>»</span></a
+            >
+          </td>
+          <td>NÃO</td>
+        </tr>
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Escolar</td>
+          <td>Pacaembu</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-pacaembu.html"
+              >Acessar <span>»</span></a
+            >
+          </td>
+          <td>NÃO</td>
+        </tr>
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Escolar</td>
+          <td>Brooklin</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-no-brooklin.html"
+              >Acessar <span>»</span></a
+            >
+          </td>
+          <td>NÃO</td>
+        </tr>
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Escolar</td>
+          <td>Chácara Flora</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-na-chacara-flora.html"
+              >Acessar <span>»</span></a
+            >
+          </td>
+          <td>NÃO</td>
+        </tr>
+
+        <tr>
+          <td class="id">1</td>
+          <td>Acervo Escolar</td>
+          <td>Morumbi</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-morumbi.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+
+        <tr>
+          <td class="id">2</td>
+          <td>Acervo Escolar</td>
+          <td>Mooca</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-mooca.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+
+        <tr>
+          <td class="id">3</td>
+          <td>Acervo Escolar</td>
+          <td>Moema</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-moema.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+
+        <tr>
+          <td class="id">4</td>
+          <td>Acervo Escolar</td>
+          <td>Lapa</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-lapa.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+
+        <tr>
+          <td class="id">5</td>
+          <td>Acervo Escolar</td>
+          <td>Jardins (Região)</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-jardins-regiao-sp.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+
+        <tr>
+          <td class="id">6</td>
+          <td>Acervo Escolar</td>
+          <td>Jardim Santo André</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-jardim-santo-andre.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Escolar</td>
+          <td>Jardim Paulistano</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-jardim-paulistano.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Escolar</td>
+          <td>Jardim Paulista</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-jardim-paulista.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Escolar</td>
+          <td>Jardim Europa</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-jardim-europa.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Escolar</td>
+          <td>Jardim do Mar São Bernardo do Campo</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-jardim-do-mar-sao-bernardo-do-campo.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Escolar</td>
+          <td>Jardim Bela Vista Santo Amaro</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-jardim-bela-vista-santo-andre.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Escolar</td>
+          <td>Jardim Anália Franco</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-jardim-analia-franco.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Escolar</td>
+          <td>Jardim América</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-jardim-america.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Escolar</td>
+          <td>Itaim Bibi</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-itaim-bibi.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Escolar</td>
+          <td>Ipiranga</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-ipiranga.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Escolar</td>
+          <td>Higienópolis</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-higienopolis.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Escolar</td>
+          <td>Granja Viana Cotia</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-granja-viana-cotia.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Escolar</td>
+          <td>Consolação</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-consolacao.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Escolar</td>
+          <td>Cidade Jardim</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-cidade-jardim.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Escolar</td>
+          <td>Chácara Santo Antônio</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-chacara-santo-antonio.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Escolar</td>
+          <td>Cerqueira César</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-cerqueira-cesar.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Escolar</td>
+          <td>Campestre Santo André</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-campestre-santo-andre.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Escolar</td>
+          <td>Butantã</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-butanta.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Escolar</td>
+          <td>Bela Vista Osasco</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-bela-vista-osasco.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Escolar</td>
+          <td>Barra Funda</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-barra-funda.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Escolar</td>
+          <td>Saúde</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-bairro-saude.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Escolar</td>
+          <td>Alto de Pinheiros</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-alto-de-pinheiros.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Escolar</td>
+          <td>Alphaville Santana de Parnaíba</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-alphaville-santana-de-parnaiba.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Escolar</td>
+          <td>Alphaville Barueri</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-escolares-alphaville-barueri.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+      </table>
+
+      <br />
+      <h2 class="title">Acervos Empresariais</h2>
+      <table>
+        <tr>
+          <th>ID</th>
+          <th>Especialidade</th>
+          <th>Nome da Região</th>
+          <th>Valor Cobrado</th>
+          <th>Visualização</th>
+          <th>Ajuste Google</th>
+        </tr>
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Empresarial</td>
+          <td>Vila Yara Osasco</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-vila-yara-osasco.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Empresarial</td>
+          <td>Vila Prudente</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-vila-prudente.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Empresarial</td>
+          <td>Vila Olímpia</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-vila-olimpia.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Empresarial</td>
+          <td>Vila Nova Conceição</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-vila-nova-conceicao.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Empresarial</td>
+          <td>Vila Mariana</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-vila-mariana.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Empresarial</td>
+          <td>Vila Madalena</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-vila-madalena.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Empresarial</td>
+          <td>Vila Clementino</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-vila-clementino.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Empresarial</td>
+          <td>Tatuapé</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-tatuape.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Empresarial</td>
+          <td>Tamboré Barueri</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-tambore-barueri.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Empresarial</td>
+          <td>Santo Amaro</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-santo-amaro.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Empresarial</td>
+          <td>Santana</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-santana.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Empresarial</td>
+          <td>Pinheiros</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-pinheiros.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Empresarial</td>
+          <td>Perdizes</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-perdizes.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Empresarial</td>
+          <td>Paraíso</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-paraiso.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Empresarial</td>
+          <td>Pacaembu</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-pacaembu.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Empresarial</td>
+          <td>Moema</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-no-moema.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Empresarial</td>
+          <td>Campo Belo</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-no-campo-belo.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Empresarial</td>
+          <td>Butantã</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-no-butanta.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Empresarial</td>
+          <td>Brooklin</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-no-brooklin.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Empresarial</td>
+          <td>Lapa</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-na-lapa.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Empresarial</td>
+          <td>Cerqueira César</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-na-cidade-de-cerqueira-cesar.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Empresarial</td>
+          <td>Chácara Flora</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-na-chacara-flora.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Empresarial</td>
+          <td>Mooca</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-mooca.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Empresarial</td>
+          <td>Jardins</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-jardins-sp.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Empresarial</td>
+          <td>Jardim Paulistano</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-jardim-paulistano.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Empresarial</td>
+          <td>Jardim Paulista</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-jardim-paulista.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Empresarial</td>
+          <td>Jardim Europa</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-jardim-europa-sp.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Empresarial</td>
+          <td>Jardim Bela Vista Santo André</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-jardim-bela-vista-santo-andre.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Empresarial</td>
+          <td>Jardim Anália Franco</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-jardim-analia-franco.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Empresarial</td>
+          <td>Jardim América</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-jardim-america.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Empresarial</td>
+          <td>Ipiranga</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-ipiranga.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Empresarial</td>
+          <td>Higienópolis</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-higienopolis.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Empresarial</td>
+          <td>Consolação</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-consolacao.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Empresarial</td>
+          <td>Cidade Jardim</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-cidade-jardim.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Empresarial</td>
+          <td>Chácara Santo Antônio</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-chacara-santo-antonio.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Empresarial</td>
+          <td>Campestre Santo André</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-campestre-santo-andre.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Empresarial</td>
+          <td>Bela Vista Osasco</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-bela-vista-osasco.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Empresarial</td>
+          <td>Barra Funda</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-barra-funda.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Empresarial</td>
+          <td>Alto de Pinheiros</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-alto-de-pinheiros.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Empresarial</td>
+          <td>Alphaville Barueri</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-alphaville-barueri.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+
+        <tr>
+          <td class="id">0</td>
+          <td>Acervo Empresarial</td>
+          <td>Aclimação</td>
+          <td>R$ 15</td>
+          <td>
+            <a
+              target="_blank"
+              href="https://timestop.com.br/servicos/digitalizacao-de-acervos-empresariais-aclimacao.html"
+            >
+              Acessar <span>»</span>
+            </a>
+          </td>
+          <td>NÃO</td>
+        </tr>
+      </table>
+
       <div class="card">
         <h2>Escolares</h2>
         <a
@@ -1383,20 +2044,20 @@
         >
       </div>
     </div>
-    <div class="grid">
-      <h1>Páginas Restantes (Empresariais)</h1>
-      <ul>
-        <li>Morumbi</li>
-        <li>Saúde</li>
-        <li>Jardim Santo André</li>
-        <li>Alphaville Santana de Parnaíba</li>
-        <li>Granja Viana Cotia</li>
-        <li>Vila Campesina Osasco</li>
-        <li>Jardim do Mar São Bernardo do Campo</li>
-        <li>Rudge Ramos São Bernardo do Campo</li>
-        <li>Nova Petrópolis São Bernardo do Campo</li>
-        <li>São Caetano do Sul Cidade Inteira</li>
-      </ul>
-    </div>
+    <script>
+      const id = document.querySelectorAll(".id");
+      const cells = document.querySelectorAll("td");
+      id.forEach((item, ind) => {
+        item.innerText = ind + 1;
+      });
+      cells.forEach((td) => {
+        const texto = td.innerText.trim();
+        if (texto === "NÃO") {
+          td.classList.add("non");
+        } else if (texto === "SIM") {
+          td.classList.add("yep");
+        }
+      });
+    </script>
   </body>
 </html>
